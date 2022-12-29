@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CJGChainProgramming_Example' do
+  pod 'CJGChainProgramming', :path => '../'
+
+  target 'CJGChainProgramming_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
