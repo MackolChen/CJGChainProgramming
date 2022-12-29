@@ -1,0 +1,45 @@
+PODS:
+  - CJGChainProgramming (0.0.1):
+    - CJGChainProgramming/CALayer (= 0.0.1)
+    - CJGChainProgramming/Categories (= 0.0.1)
+    - CJGChainProgramming/CJGChainProgrammingBase (= 0.0.1)
+    - CJGChainProgramming/UIGesture (= 0.0.1)
+    - CJGChainProgramming/UIView (= 0.0.1)
+    - Masonry
+  - CJGChainProgramming/CALayer (0.0.1):
+    - Masonry
+  - CJGChainProgramming/Categories (0.0.1):
+    - CJGChainProgramming/Categories/Foundation (= 0.0.1)
+    - CJGChainProgramming/Categories/UI (= 0.0.1)
+    - Masonry
+  - CJGChainProgramming/Categories/Foundation (0.0.1):
+    - Masonry
+  - CJGChainProgramming/Categories/UI (0.0.1):
+    - Masonry
+  - CJGChainProgramming/CJGChainProgrammingBase (0.0.1):
+    - Masonry
+  - CJGChainProgramming/UIGesture (0.0.1):
+    - Masonry
+  - CJGChainProgramming/UIView (0.0.1):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CJGChainProgramming (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  CJGChainProgramming:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJGChainProgramming: fcc9c8b182fff9c8aa9c2dc4cd63a3577cd9ff92
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: db1322f28ad4a9a8fec2d4aaa404b30b019ac61c
+
+COCOAPODS: 1.11.3

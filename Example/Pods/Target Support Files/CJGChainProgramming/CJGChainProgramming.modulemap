@@ -1,0 +1,6 @@
+framework module CJGChainProgramming {
+  umbrella header "CJGChainProgramming-umbrella.h"
+
+  export *
+  module * { export * }
+}

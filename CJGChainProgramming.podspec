@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGChainProgramming'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CJGChainProgramming.'
+  s.version          = '0.0.1'
+  s.summary          = '链式编程'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,40 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/MackolChen/CJGChainProgramming'
+  s.homepage         = 'https://github.com/MackolChen'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MackolChen' => 'chenjg@tiens.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGChainProgramming.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '11.0'
   s.source_files = 'CJGChainProgramming/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CJGChainProgramming' => ['CJGChainProgramming/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #=========================CJGChainProgrammingBase==================================
+  s.subspec 'CJGChainProgrammingBase' do |ss|
+    ss.source_files = 'CJGChainProgramming/Classes/CJGChainProgrammingBase/*.{h,m}'
+  end
+  #=========================UIView==================================
+  s.subspec 'UIView' do |ss|
+    ss.source_files = 'CJGChainProgramming/Classes/UIView/*.{h,m}'
+    ss.dependency "CJGChainProgramming/CJGChainProgrammingBase"
+    ss.dependency "CJGChainProgramming/Categories"
+    ss.dependency "CJGChainProgramming/CALayer"
+    ss.dependency "CJGChainProgramming/UIGesture"
+  end
+  #=========================CALayer==================================
+  s.subspec 'CALayer' do |ss|
+    ss.source_files = 'CJGChainProgramming/Classes/CALayer/*.{h,m}'
+    ss.dependency "CJGChainProgramming/CJGChainProgrammingBase"
+    ss.dependency "CJGChainProgramming/Categories"
+  end
+  #=========================UIGesture==================================
+  s.subspec 'UIGesture' do |ss|
+    ss.source_files = 'CJGChainProgramming/Classes/UIGesture/*.{h,m}'
+    ss.dependency "CJGChainProgramming/CJGChainProgrammingBase"
+    ss.dependency "CJGChainProgramming/Categories"
+  end
+  #=========================Categories==================================
+  s.subspec 'Categories' do |ss|
+    ss.source_files = 'CJGChainProgramming/Classes/Categories/*.{h,m}'
+  end
+   s.dependency 'Masonry'
 end
