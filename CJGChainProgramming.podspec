@@ -27,10 +27,12 @@ TODO: Add long description of the pod here.
   s.author           = { 'MackolChen' => 'chenjg@tiens.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGChainProgramming.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-  s.source_files = 'CJGChainProgramming/Classes/*'
+  s.source_files = 'CJGChainProgramming/Classes/CJGChainProgramming.h'
+  s.public_header_files = 'CJGChainProgramming/Classes/CJGChainProgramming.h'
   #=========================CJGChainProgrammingBase==================================
   s.subspec 'CJGChainProgrammingBase' do |ss|
     ss.source_files = 'CJGChainProgramming/Classes/CJGChainProgrammingBase/*.{h,m}'
+    
   end
   #=========================UIView==================================
   s.subspec 'UIView' do |ss|
