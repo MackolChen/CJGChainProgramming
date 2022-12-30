@@ -1,9 +1,9 @@
 {
   "name": "CJGChainProgramming",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "summary": "链式编程",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://www.baidu.com",
+  "homepage": "https://github.com/MackolChen",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/MackolChen/CJGChainProgramming.git",
-    "tag": "0.0.1"
+    "tag": "0.0.5"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "9.0"
   },
   "source_files": "CJGChainProgramming/Classes/CJGChainProgramming.h",
+  "public_header_files": "CJGChainProgramming/Classes/CJGChainProgramming.h",
   "dependencies": {
     "Masonry": [
 
@@ -27,33 +28,53 @@
   "subspecs": [
     {
       "name": "CJGChainProgrammingBase",
-      "source_files": "CJGChainProgramming/Classes/CJGChainProgrammingBase/*"
+      "source_files": "CJGChainProgramming/Classes/CJGChainProgrammingBase/*.{h,m}"
     },
     {
       "name": "UIView",
-      "source_files": "CJGChainProgramming/Classes/UIView/*"
+      "source_files": "CJGChainProgramming/Classes/UIView/*.{h,m}",
+      "dependencies": {
+        "CJGChainProgramming/CJGChainProgrammingBase": [
+
+        ],
+        "CJGChainProgramming/Categories": [
+
+        ],
+        "CJGChainProgramming/CALayer": [
+
+        ],
+        "CJGChainProgramming/UIGesture": [
+
+        ]
+      }
     },
     {
       "name": "CALayer",
-      "source_files": "CJGChainProgramming/Classes/CALayer/*"
+      "source_files": "CJGChainProgramming/Classes/CALayer/*.{h,m}",
+      "dependencies": {
+        "CJGChainProgramming/CJGChainProgrammingBase": [
+
+        ],
+        "CJGChainProgramming/Categories": [
+
+        ]
+      }
     },
     {
       "name": "UIGesture",
-      "source_files": "CJGChainProgramming/Classes/UIGesture/*"
+      "source_files": "CJGChainProgramming/Classes/UIGesture/*.{h,m}",
+      "dependencies": {
+        "CJGChainProgramming/CJGChainProgrammingBase": [
+
+        ],
+        "CJGChainProgramming/Categories": [
+
+        ]
+      }
     },
     {
       "name": "Categories",
-      "source_files": "CJGChainProgramming/Classes/Categories/*",
-      "subspecs": [
-        {
-          "name": "UI",
-          "source_files": "CJGCategories/Classes/Categories/UI/*"
-        },
-        {
-          "name": "Foundation",
-          "source_files": "CJGCategories/Classes/Categories/Foundation/*"
-        }
-      ]
+      "source_files": "CJGChainProgramming/Classes/Categories/*.{h,m}"
     }
   ]
 }

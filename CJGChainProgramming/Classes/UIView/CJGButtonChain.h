@@ -4,12 +4,12 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 #import "UIButton+CJGChain.h"
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^CJGButtonImageTitleBlock)(UIImageView *imageView, UILabel *title);
 @class CJGButtonChain;
-@interface CJGButtonChain : CJGControlChain<CJGButtonChain *>
+@interface CJGButtonChain : CJGBaseControlChain<CJGButtonChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGButtonChain *(^ contentEdgeInsets)(UIEdgeInsets contentEdgeInsets);
 CJGCATEGORY_CHAIN_PROPERTY CJGButtonChain *(^ titleEdgeInsets)(UIEdgeInsets titleEdgeInsets);
 CJGCATEGORY_CHAIN_PROPERTY CJGButtonChain *(^ imageEdgeInsets)(UIEdgeInsets imageEdgeInsets);

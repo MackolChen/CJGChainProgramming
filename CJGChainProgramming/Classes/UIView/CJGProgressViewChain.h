@@ -5,10 +5,10 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGViewChain.h"
+#import "CJGBaseViewChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGProgressViewChain;
-@interface CJGProgressViewChain : CJGViewChain<CJGProgressViewChain *>
+@interface CJGProgressViewChain : CJGBaseViewChain<CJGProgressViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGProgressViewChain * (^ progressViewStyle) (UIProgressViewStyle progressViewStyle);
 CJGCATEGORY_CHAIN_PROPERTY CJGProgressViewChain * (^ progress) (float progress);
 CJGCATEGORY_CHAIN_PROPERTY CJGProgressViewChain * (^ progressTintColor) (UIColor* progressTintColor);

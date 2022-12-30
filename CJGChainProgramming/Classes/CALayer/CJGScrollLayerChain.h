@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGScrollLayerChain;
-@interface CJGScrollLayerChain : CJGLayerChain<CJGScrollLayerChain *>
+@interface CJGScrollLayerChain : CJGBaseLayerChain<CJGScrollLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGScrollLayerChain * (^ scrollToPoint) (CGPoint point);
 CJGCATEGORY_CHAIN_PROPERTY CJGScrollLayerChain * (^ scrollToRect) (CGRect rect);
 CJGCATEGORY_CHAIN_PROPERTY CJGScrollLayerChain * (^ scrollMode) (CAScrollLayerScrollMode scrollMode);

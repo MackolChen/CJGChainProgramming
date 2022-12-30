@@ -4,10 +4,10 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGTextFieldChain;
-@interface CJGTextFieldChain : CJGControlChain<CJGTextFieldChain*>
+@interface CJGTextFieldChain : CJGBaseControlChain<CJGTextFieldChain*>
 CJGCATEGORY_CHAIN_PROPERTY CJGTextFieldChain *(^ text)(NSString *text);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextFieldChain *(^ attributedText)(NSAttributedString *attributedText);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextFieldChain *(^ font)(UIFont *font);

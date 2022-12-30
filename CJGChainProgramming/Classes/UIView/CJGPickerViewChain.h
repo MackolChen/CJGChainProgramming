@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGViewChain.h"
+#import "CJGBaseViewChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGPickerViewChain;
-@interface CJGPickerViewChain : CJGViewChain<CJGPickerViewChain *>
+@interface CJGPickerViewChain : CJGBaseViewChain<CJGPickerViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGPickerViewChain * (^ dataSource) (id<UIPickerViewDataSource> dataSource);
 CJGCATEGORY_CHAIN_PROPERTY CJGPickerViewChain * (^ delegate) (id<UIPickerViewDelegate> delegate);
 CJGCATEGORY_CHAIN_PROPERTY CJGPickerViewChain * (^ showsSelectionIndicator) (BOOL showsSelectionIndicator);

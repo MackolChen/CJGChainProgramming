@@ -5,7 +5,7 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGScrollViewChain.h"
+#import "CJGBaseScrollViewChain.h"
 #if __has_include(<WebKit/WebKit.h>)
 #import <WebKit/WebKit.h>
 #else
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @class CJGWebViewChain;
-@interface CJGWebViewChain : CJGScrollViewChain<CJGWebViewChain *>
+@interface CJGWebViewChain : CJGBaseScrollViewChain<CJGWebViewChain *>
 
 @end
 

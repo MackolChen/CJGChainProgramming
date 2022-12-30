@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGSliderViewChain;
-@interface CJGSliderViewChain : CJGControlChain<CJGSliderViewChain *>
+@interface CJGSliderViewChain : CJGBaseControlChain<CJGSliderViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGSliderViewChain * (^ value) (float value);
 CJGCATEGORY_CHAIN_PROPERTY CJGSliderViewChain * (^ minimumValue) (float minimumValue);
 CJGCATEGORY_CHAIN_PROPERTY CJGSliderViewChain * (^ maximumValue) (float maximumValue);

@@ -4,10 +4,10 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGSwitchChain;
-@interface CJGSwitchChain : CJGControlChain<CJGSwitchChain *>
+@interface CJGSwitchChain : CJGBaseControlChain<CJGSwitchChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGSwitchChain *(^ on)(BOOL on);
 CJGCATEGORY_CHAIN_PROPERTY CJGSwitchChain *(^ onTintColor)(UIColor *onTintColor);
 CJGCATEGORY_CHAIN_PROPERTY CJGSwitchChain *(^ thumbTintColor)(UIColor *thumbTintColor);

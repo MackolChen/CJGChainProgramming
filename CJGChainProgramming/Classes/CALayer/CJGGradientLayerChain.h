@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGGradientLayerChain;
-@interface CJGGradientLayerChain : CJGLayerChain<CJGGradientLayerChain *>
+@interface CJGGradientLayerChain : CJGBaseLayerChain<CJGGradientLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGGradientLayerChain * (^ colors) (NSArray * colors);
 CJGCATEGORY_CHAIN_PROPERTY CJGGradientLayerChain * (^ locations) (NSArray<NSNumber *> * locations);
 CJGCATEGORY_CHAIN_PROPERTY CJGGradientLayerChain * (^ startPoint) (CGPoint startPoint);

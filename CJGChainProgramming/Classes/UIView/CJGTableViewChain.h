@@ -4,10 +4,10 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGScrollViewChain.h"
+#import "CJGBaseScrollViewChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGTableViewChain;
-@interface CJGTableViewChain : CJGScrollViewChain<CJGTableViewChain *>
+@interface CJGTableViewChain : CJGBaseScrollViewChain<CJGTableViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGTableViewChain * (^ delegate) (id <UITableViewDelegate> delegate);
 CJGCATEGORY_CHAIN_PROPERTY CJGTableViewChain * (^ dataSource) (id <UITableViewDataSource> dataSource);
 CJGCATEGORY_CHAIN_PROPERTY CJGTableViewChain * (^ adJustedContentIOS11)(void);

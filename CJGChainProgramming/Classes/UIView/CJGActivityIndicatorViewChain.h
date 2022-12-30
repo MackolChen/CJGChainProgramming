@@ -5,10 +5,10 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGViewChain.h"
+#import "CJGBaseViewChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGActivityIndicatorView;
-@interface CJGActivityIndicatorView : CJGViewChain<CJGActivityIndicatorView *>
+@interface CJGActivityIndicatorView : CJGBaseViewChain<CJGActivityIndicatorView *>
 CJGCATEGORY_CHAIN_PROPERTY CJGActivityIndicatorView * (^ activityIndicatorViewStyle) (UIActivityIndicatorViewStyle activityIndicatorViewStyle);
 CJGCATEGORY_CHAIN_PROPERTY CJGActivityIndicatorView * (^ hidesWhenStopped) (BOOL hidesWhenStopped);
 CJGCATEGORY_CHAIN_PROPERTY CJGActivityIndicatorView * (^ color) (UIColor * color);

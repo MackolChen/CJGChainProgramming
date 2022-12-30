@@ -4,10 +4,10 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGViewChain.h"
+#import "CJGBaseViewChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGLabelChain;
-@interface CJGLabelChain : CJGViewChain<CJGLabelChain *>
+@interface CJGLabelChain : CJGBaseViewChain<CJGLabelChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGLabelChain *(^ text)(NSString *text);
 CJGCATEGORY_CHAIN_PROPERTY CJGLabelChain *(^ font)(UIFont *font);
 CJGCATEGORY_CHAIN_PROPERTY CJGLabelChain *(^ textColor)(UIColor *textColor);

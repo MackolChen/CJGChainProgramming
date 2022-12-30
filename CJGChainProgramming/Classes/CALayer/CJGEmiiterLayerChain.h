@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGEmiiterLayerChain;
-@interface CJGEmiiterLayerChain : CJGLayerChain<CJGEmiiterLayerChain *>
+@interface CJGEmiiterLayerChain : CJGBaseLayerChain<CJGEmiiterLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGEmiiterLayerChain * (^ emitterCells) (NSArray<CAEmitterCell *> * emitterCells);
 CJGCATEGORY_CHAIN_PROPERTY CJGEmiiterLayerChain * (^ birthRate) (float birthRate);
 CJGCATEGORY_CHAIN_PROPERTY CJGEmiiterLayerChain * (^ lifetime) (float lifetime);

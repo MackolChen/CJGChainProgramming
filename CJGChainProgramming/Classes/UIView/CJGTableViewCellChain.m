@@ -6,7 +6,7 @@
 //
 
 #import "CJGTableViewCellChain.h"
-#define CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(CJGMethod,CJGParaType) CJGCATEGORY_CHAIN_VIEWCLASS_IMPLEMENTATION(CJGMethod,CJGParaType, CJGViewChain *,UITableViewCell)
+#define CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(CJGMethod,CJGParaType) CJGCATEGORY_CHAIN_VIEWCLASS_IMPLEMENTATION(CJGMethod,CJGParaType, CJGBaseViewChain *,UITableViewCell)
 @implementation CJGTableViewCellChain
 
 CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(selectionStyle, UITableViewCellSelectionStyle)
@@ -16,7 +16,7 @@ CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(editing, BOOL)
 CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(focusStyle, UITableViewCellFocusStyle)
 CJGCATEGORY_CHAIN_TABLEVIEWCELL_IMPLEMENTATION(userInteractionEnabledWhileDragging, BOOL)
 
-- (CJGViewChain * _Nonnull (^)(BOOL, BOOL))editingWithAnimated{
+- (CJGBaseViewChain * _Nonnull (^)(BOOL, BOOL))editingWithAnimated{
     return ^ (BOOL editing, BOOL animated){
         [self enumerateObjectsUsingBlock:^(UITableViewCell * _Nonnull obj) {
             [obj setEditing:editing animated:animated];

@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGSegmentedControlChain;
-@interface CJGSegmentedControlChain : CJGControlChain<CJGSegmentedControlChain *>
+@interface CJGSegmentedControlChain : CJGBaseControlChain<CJGSegmentedControlChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGSegmentedControlChain* (^ momentary) (BOOL momentary);
 CJGCATEGORY_CHAIN_PROPERTY CJGSegmentedControlChain* (^ apportionsSegmentWidthsByContent) (BOOL apportionsSegmentWidthsByContent);
 CJGCATEGORY_CHAIN_PROPERTY CJGSegmentedControlChain* (^ removeAllSegments) (void);

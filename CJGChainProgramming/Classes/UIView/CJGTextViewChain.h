@@ -4,10 +4,10 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGScrollViewChain.h"
+#import "CJGBaseScrollViewChain.h"
 NS_ASSUME_NONNULL_BEGIN
 @class CJGTextViewChain;
-@interface CJGTextViewChain : CJGScrollViewChain<CJGTextViewChain *>
+@interface CJGTextViewChain : CJGBaseScrollViewChain<CJGTextViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGTextViewChain *(^ delegate)(id<UITextViewDelegate> delegate);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextViewChain *(^ text)(NSString *text);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextViewChain *(^ font)(UIFont *font);

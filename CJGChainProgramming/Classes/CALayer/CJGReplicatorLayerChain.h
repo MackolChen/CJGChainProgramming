@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGReplicatorLayerChain;
-@interface CJGReplicatorLayerChain : CJGLayerChain<CJGReplicatorLayerChain *>
+@interface CJGReplicatorLayerChain : CJGBaseLayerChain<CJGReplicatorLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGReplicatorLayerChain * (^ instanceCount) (NSInteger instanceCount);
 CJGCATEGORY_CHAIN_PROPERTY CJGReplicatorLayerChain * (^ preservesDepth) (BOOL preservesDepth);
 CJGCATEGORY_CHAIN_PROPERTY CJGReplicatorLayerChain * (^ instanceDelay) (CFTimeInterval instanceDelay);

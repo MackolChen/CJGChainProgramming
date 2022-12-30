@@ -7,358 +7,374 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019FC23CD476961937183A231E2314F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		07A00F0ABE878D84AC2AA127E3561BF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		1A2690BE621948E19BA1851D6F9C5BC5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		27712160C7A208789B85D3D424787552 /* CJGChainProgramming-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECBC12B78EDE198F746E06594586F6F /* CJGChainProgramming-dummy.m */; };
-		2923A248F2A3F500F98C4C857CF561DA /* CJGChainProgramming-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F6D99FA08D93770E38860DA99C9E8E /* CJGChainProgramming-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34CD3A12AE5BA49C3721874918094F6E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		399000096B128C6EB2DB357668CCD63B /* CJGChainProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 2777F0F103282B5D301CE712798E5E97 /* CJGChainProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FE8CD656CCF6F6EACC206CA2A55E50 /* UILabel+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE49EE0B07C667B8C8D69FE54807456 /* UILabel+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0724041F5DAE02FA45F9E371A9ED3C68 /* CJGBaseLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C671E3137DEAEBCA36C92F1224D108 /* CJGBaseLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076578416F585EC483D72D069F85BEE3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		07B067DA938A893BCD72912BAC001010 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07DF9633EDC87C2E5001C30B26983340 /* CJGChainBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0AF4ECDF1D688C900B3ACBF3D9CF6 /* CJGChainBase.m */; };
+		08768E1522C7A67D63267BB60BD40686 /* CJGDatePickerViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E7277909023011B61CA69D448A25F7 /* CJGDatePickerViewChain.m */; };
+		09B67CA0C3FDA46D098F53182A85F6C7 /* CJGSliderViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E43BA2A03EABCF2B78BDF1394DDDEF /* CJGSliderViewChain.m */; };
+		09EC383C153BF878200C989DFA5225BD /* UITextField+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AAA718104573E2500AA2A961D29296 /* UITextField+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2283274D04130466590CBC7C49792F /* UIScrollView+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F5FEB60A42A75B1507F5DF435205 /* UIScrollView+CJGChain.m */; };
+		1265E0FFE49F68D2DBE286848CFF6700 /* CJGScrollLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D16F6BBB5426BD51A2093E9463112ED /* CJGScrollLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137BF4CC5CD190C5B3BB14CEA83F57BF /* CJGBaseViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DE19B7B48A2557B7301FE8F2E01C7FAC /* CJGBaseViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ABC196EF621F53A564BE9103D90FD5 /* CJGGradientLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DED002298C45015B09504E904883E7 /* CJGGradientLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19705C2F815DF5666B66333303AB737F /* UILabel+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED73327096DF87C62FD45EC53501081 /* UILabel+CJGChain.m */; };
+		19BB9A797FF8DE06C266953E96BF5A8F /* NSDictionary+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2184A0B13B96D4D8C1A31C4EE87EF553 /* NSDictionary+CJGChain.m */; };
+		1A2765F6A7020319D02E39DC4F204ED0 /* CJGGradientLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 58203ECC34DDBCAEC049AF83654CDE59 /* CJGGradientLayerChain.m */; };
+		1A3E79BACB3B4105FEE8EE44DD66AF3E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		1A5E7A95DEDE2FB36F69843FF8EE4C98 /* CALayer+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = C57AE49B1DD31491B6B36E96FF098515 /* CALayer+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B08CF665D7A4A0C6E91A6C6625E0226 /* CALayer+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F64D0FBEB168274E9087E9E25BD6C33 /* CALayer+CJGChain.m */; };
+		1BE625255284E33384B58A3D095144DE /* CJGRotationGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BFAB26E7CA224F1756E19D3D9E36F /* CJGRotationGestureChain.m */; };
+		21E90DC090BDE3BB20CA8ACB87C595D6 /* CJGTapGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B74B2E0C43C116A9989E51AC2B171 /* CJGTapGestureChain.m */; };
+		228E03868E80F8A7B72D5E20441E2BCF /* CJGImageViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 82560C2699B193FEACE98263EBBECC5F /* CJGImageViewChain.m */; };
+		23A7B387AAE7F7C8DB76823B837E4910 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28EB50B8CEB7362C8F66607C147F461D /* CJGScrollViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F00BB7D415EA907CB417BA45324EB5 /* CJGScrollViewChain.m */; };
+		2A3C3FCFF04495977FD65FCC3DA004BB /* NSObject+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 443EB059990640B2C03539DF38192683 /* NSObject+CJGChain.m */; };
+		2B501786BD0D6241D9A371C2CC7E537A /* CJGRotationGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FF4FAA9F9869DEAEE8073E5CE441BA /* CJGRotationGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7BECD41F3A45BF862E3BC64079176E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		2BC2FF73ED506ED2BB159F0C36BDFD80 /* CJGCollectionViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F8655DC03CA9C3645E6024897D5C5931 /* CJGCollectionViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB118B63412652297909DC0E2CEACA7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB5DDAD8D7007BEF4565E990ED31C35 /* CJGCALayerChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 989A9223ECCF934A3C926D91AE6F3E24 /* CJGCALayerChainHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4218F02F746DB6F565D20892D6AE92 /* NSData+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8189FA404CC9BE02795AE3A41478FA50 /* NSData+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304A19B9A037EF7170DB4C538FB4904A /* CJGSliderViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 767D4388707443DC3F157DA34EDA27C4 /* CJGSliderViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31AED6D0981795E911DA543D2E0662AA /* CJGTextFieldChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC7ED5184A72C47319260B6056546A3 /* CJGTextFieldChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DD4C775240F060267C1540392EC30B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3244ACBB70FF38AF1309BAAB2E03C237 /* CJGTextLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F69CD5EC1AD89B85AD9D2F30D78019 /* CJGTextLayerChain.m */; };
+		343B893BEA4084824FC1AC7B43F4621C /* CJGLongPressGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1B3F62EA6A1565EA8127A555C09C07 /* CJGLongPressGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C2073AAE4A6F943F77C2DF29F67BB5 /* CJGChainProgramming-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E602CFBA5A55DD3AF727D157D600816B /* CJGChainProgramming-dummy.m */; };
+		36203C44D073D36C8DE27440F77AFA74 /* CJGTableViewCellChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C39548FC7766BB6F7F2CF71FFCDCA08 /* CJGTableViewCellChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36359E477FF6550268C62780DDDB7865 /* UIButton+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D462FBDDB1C93854DB261EA4C21E08 /* UIButton+CJGChain.m */; };
+		3BC9F93D573D3410C1E83DB755D5CF02 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		3E213F9A66C59153FC7A5EC806D31D9A /* NSNumber+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D6DB1A2255227CB5980560ADEB2A50 /* NSNumber+CJGChain.m */; };
+		40858AE1B029C31FA85DD7CDA03E37A8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		412B7EC19C20B8E92C0C364406B3C211 /* CJGPickerViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E46BDE1AA34F02F4E0C9B71FDDCC74 /* CJGPickerViewChain.m */; };
+		43BD94CD8DA7F5029C66FB9854A1144C /* CJGPanGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF74F080940EB8C26CD85543416ECD8 /* CJGPanGestureChain.m */; };
+		46750486ECE65F04052A65E203F74627 /* CJGActivityIndicatorViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 961B587704E011C73A79CF02AF735C27 /* CJGActivityIndicatorViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468720CC5709B17E639A5AEE54F6B8B8 /* NSString+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D361D7EADB04D1DAC591F4260456C /* NSString+CJGChain.m */; };
 		47BDF5A1C15DDCE0E91C96051E7F9F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		4A11335512C6EB98CFF0DA257FBC1769 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DD19E5CC103BCA27937F2D2A3FF6202 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		52FE2BEC295D8AE40027845B /* UIGestureRecognizer+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BD3295D8AE40027845B /* UIGestureRecognizer+CJGChain.m */; };
-		52FE2BED295D8AE40027845B /* UIScrollView+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BD4295D8AE40027845B /* UIScrollView+CJGChain.m */; };
-		52FE2BEE295D8AE40027845B /* UIControl+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BD5295D8AE40027845B /* UIControl+CJGChain.h */; };
-		52FE2BEF295D8AE40027845B /* UIButton+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BD6295D8AE40027845B /* UIButton+CJGChain.h */; };
-		52FE2BF0295D8AE40027845B /* UITextField+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BD7295D8AE40027845B /* UITextField+CJGChain.m */; };
-		52FE2BF1295D8AE40027845B /* UILabel+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BD8295D8AE40027845B /* UILabel+CJGChain.h */; };
-		52FE2BF2295D8AE40027845B /* UIGestureRecognizer+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BD9295D8AE40027845B /* UIGestureRecognizer+CJGChain.h */; };
-		52FE2BF3295D8AE40027845B /* UIScrollView+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BDA295D8AE40027845B /* UIScrollView+CJGChain.h */; };
-		52FE2BF4295D8AE40027845B /* UITextField+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BDB295D8AE40027845B /* UITextField+CJGChain.h */; };
-		52FE2BF5295D8AE40027845B /* UIButton+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BDC295D8AE40027845B /* UIButton+CJGChain.m */; };
-		52FE2BF6295D8AE40027845B /* UIControl+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BDD295D8AE40027845B /* UIControl+CJGChain.m */; };
-		52FE2BF7295D8AE40027845B /* UILabel+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BDE295D8AE40027845B /* UILabel+CJGChain.m */; };
-		52FE2BF8295D8AE40027845B /* NSString+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE0295D8AE40027845B /* NSString+CJGChain.m */; };
-		52FE2BF9295D8AE40027845B /* NSData+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE1295D8AE40027845B /* NSData+CJGChain.m */; };
-		52FE2BFA295D8AE40027845B /* NSNumber+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE2295D8AE40027845B /* NSNumber+CJGChain.m */; };
-		52FE2BFB295D8AE40027845B /* NSObject+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE3295D8AE40027845B /* NSObject+CJGChain.m */; };
-		52FE2BFC295D8AE40027845B /* NSDictionary+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE4295D8AE40027845B /* NSDictionary+CJGChain.m */; };
-		52FE2BFD295D8AE40027845B /* NSAttributedString+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE2BE5295D8AE40027845B /* NSAttributedString+CJGChain.m */; };
-		52FE2BFE295D8AE40027845B /* NSData+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BE6295D8AE40027845B /* NSData+CJGChain.h */; };
-		52FE2BFF295D8AE40027845B /* NSString+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BE7295D8AE40027845B /* NSString+CJGChain.h */; };
-		52FE2C00295D8AE40027845B /* NSNumber+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BE8295D8AE40027845B /* NSNumber+CJGChain.h */; };
-		52FE2C01295D8AE40027845B /* NSAttributedString+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BE9295D8AE40027845B /* NSAttributedString+CJGChain.h */; };
-		52FE2C02295D8AE40027845B /* NSDictionary+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BEA295D8AE40027845B /* NSDictionary+CJGChain.h */; };
-		52FE2C03295D8AE40027845B /* NSObject+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE2BEB295D8AE40027845B /* NSObject+CJGChain.h */; };
-		52FE510B295DC3C4002ABF55 /* CJGTiledLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE50F6295DC3C4002ABF55 /* CJGTiledLayerChain.m */; };
-		52FE510C295DC3C4002ABF55 /* CJGGradientLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50F7295DC3C4002ABF55 /* CJGGradientLayerChain.h */; };
-		52FE510D295DC3C4002ABF55 /* CALayer+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50F8295DC3C4002ABF55 /* CALayer+CJGChain.h */; };
-		52FE510E295DC3C4002ABF55 /* CJGShaperLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50F9295DC3C4002ABF55 /* CJGShaperLayerChain.h */; };
-		52FE510F295DC3C4002ABF55 /* CJGTextLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50FA295DC3C4002ABF55 /* CJGTextLayerChain.h */; };
-		52FE5110295DC3C4002ABF55 /* CJGTransFormLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE50FB295DC3C4002ABF55 /* CJGTransFormLayerChain.m */; };
-		52FE5111295DC3C4002ABF55 /* CJGScrollLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50FC295DC3C4002ABF55 /* CJGScrollLayerChain.h */; };
-		52FE5112295DC3C4002ABF55 /* CJGReplicatorLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50FD295DC3C4002ABF55 /* CJGReplicatorLayerChain.h */; };
-		52FE5113295DC3C4002ABF55 /* CJGEmiiterLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE50FE295DC3C4002ABF55 /* CJGEmiiterLayerChain.m */; };
-		52FE5114295DC3C4002ABF55 /* CJGLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE50FF295DC3C4002ABF55 /* CJGLayerChain.h */; };
-		52FE5115295DC3C4002ABF55 /* CJGScrollLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5100295DC3C4002ABF55 /* CJGScrollLayerChain.m */; };
-		52FE5116295DC3C4002ABF55 /* CJGTransFormLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5101295DC3C4002ABF55 /* CJGTransFormLayerChain.h */; };
-		52FE5117295DC3C4002ABF55 /* CJGTextLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5102295DC3C4002ABF55 /* CJGTextLayerChain.m */; };
-		52FE5118295DC3C4002ABF55 /* CJGShaperLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5103295DC3C4002ABF55 /* CJGShaperLayerChain.m */; };
-		52FE5119295DC3C4002ABF55 /* CALayer+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5104295DC3C4002ABF55 /* CALayer+CJGChain.m */; };
-		52FE511A295DC3C4002ABF55 /* CJGGradientLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5105295DC3C4002ABF55 /* CJGGradientLayerChain.m */; };
-		52FE511B295DC3C4002ABF55 /* CJGTiledLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5106295DC3C4002ABF55 /* CJGTiledLayerChain.h */; };
-		52FE511C295DC3C4002ABF55 /* CJGEmiiterLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5107295DC3C4002ABF55 /* CJGEmiiterLayerChain.h */; };
-		52FE511D295DC3C4002ABF55 /* CJGReplicatorLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5108295DC3C4002ABF55 /* CJGReplicatorLayerChain.m */; };
-		52FE511E295DC3C4002ABF55 /* CJGCALayerChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5109295DC3C4002ABF55 /* CJGCALayerChainHeader.h */; };
-		52FE511F295DC3C4002ABF55 /* CJGLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE510A295DC3C4002ABF55 /* CJGLayerChain.m */; };
-		52FE5124295DC3F0002ABF55 /* CJGChainBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5121295DC3F0002ABF55 /* CJGChainBase.m */; };
-		52FE5125295DC3F0002ABF55 /* CJGChainBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5122295DC3F0002ABF55 /* CJGChainBase.h */; };
-		52FE5126295DC3F0002ABF55 /* CJGChainDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5123295DC3F0002ABF55 /* CJGChainDefine.h */; };
-		52FE5137295DC40B002ABF55 /* CJGPanGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5128295DC40B002ABF55 /* CJGPanGestureChain.m */; };
-		52FE5138295DC40B002ABF55 /* CJGTapGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5129295DC40B002ABF55 /* CJGTapGestureChain.m */; };
-		52FE5139295DC40B002ABF55 /* CJGGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE512A295DC40B002ABF55 /* CJGGestureChain.h */; };
-		52FE513A295DC40B002ABF55 /* CJGUIGestureChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE512B295DC40B002ABF55 /* CJGUIGestureChainHeader.h */; };
-		52FE513B295DC40B002ABF55 /* CJGSwipeGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE512C295DC40B002ABF55 /* CJGSwipeGestureChain.m */; };
-		52FE513C295DC40B002ABF55 /* CJGLongPressGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE512D295DC40B002ABF55 /* CJGLongPressGestureChain.h */; };
-		52FE513D295DC40B002ABF55 /* CJGPinchGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE512E295DC40B002ABF55 /* CJGPinchGestureChain.h */; };
-		52FE513E295DC40B002ABF55 /* CJGRotationGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE512F295DC40B002ABF55 /* CJGRotationGestureChain.m */; };
-		52FE513F295DC40B002ABF55 /* CJGTapGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5130295DC40B002ABF55 /* CJGTapGestureChain.h */; };
-		52FE5140295DC40B002ABF55 /* CJGPanGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5131295DC40B002ABF55 /* CJGPanGestureChain.h */; };
-		52FE5141295DC40B002ABF55 /* CJGGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5132295DC40B002ABF55 /* CJGGestureChain.m */; };
-		52FE5142295DC40B002ABF55 /* CJGLongPressGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5133295DC40B002ABF55 /* CJGLongPressGestureChain.m */; };
-		52FE5143295DC40B002ABF55 /* CJGSwipeGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5134295DC40B002ABF55 /* CJGSwipeGestureChain.h */; };
-		52FE5144295DC40B002ABF55 /* CJGRotationGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5135295DC40B002ABF55 /* CJGRotationGestureChain.h */; };
-		52FE5145295DC40B002ABF55 /* CJGPinchGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5136295DC40B002ABF55 /* CJGPinchGestureChain.m */; };
-		52FE5172295DC426002ABF55 /* CJGTableViewCellChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5147295DC426002ABF55 /* CJGTableViewCellChain.m */; };
-		52FE5173295DC426002ABF55 /* CJGCollectionViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5148295DC426002ABF55 /* CJGCollectionViewChain.h */; };
-		52FE5174295DC426002ABF55 /* CJGScrollViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5149295DC426002ABF55 /* CJGScrollViewChain.h */; };
-		52FE5175295DC426002ABF55 /* CJGTextViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE514A295DC426002ABF55 /* CJGTextViewChain.m */; };
-		52FE5176295DC426002ABF55 /* CJGActivityIndicatorViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE514B295DC426002ABF55 /* CJGActivityIndicatorViewChain.m */; };
-		52FE5177295DC426002ABF55 /* CJGTableViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE514C295DC426002ABF55 /* CJGTableViewChain.h */; };
-		52FE5178295DC426002ABF55 /* CJGDatePickerViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE514D295DC426002ABF55 /* CJGDatePickerViewChain.m */; };
-		52FE5179295DC426002ABF55 /* CJGPickerViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE514E295DC426002ABF55 /* CJGPickerViewChain.h */; };
-		52FE517A295DC426002ABF55 /* CJGTextFieldChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE514F295DC426002ABF55 /* CJGTextFieldChain.h */; };
-		52FE517B295DC426002ABF55 /* CJGSegmentedControlChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5150295DC426002ABF55 /* CJGSegmentedControlChain.m */; };
-		52FE517C295DC426002ABF55 /* CJGSwitchChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5151295DC426002ABF55 /* CJGSwitchChain.m */; };
-		52FE517D295DC426002ABF55 /* CJGViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5152295DC426002ABF55 /* CJGViewChain.m */; };
-		52FE517E295DC426002ABF55 /* CJGSliderViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5153295DC426002ABF55 /* CJGSliderViewChain.h */; };
-		52FE517F295DC426002ABF55 /* CJGProgressViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5154295DC426002ABF55 /* CJGProgressViewChain.h */; };
-		52FE5180295DC426002ABF55 /* UIView+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5155295DC426002ABF55 /* UIView+CJGChain.h */; };
-		52FE5181295DC426002ABF55 /* CJGControlChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5156295DC426002ABF55 /* CJGControlChain.m */; };
-		52FE5182295DC426002ABF55 /* CJGLabelChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5157295DC426002ABF55 /* CJGLabelChain.m */; };
-		52FE5183295DC426002ABF55 /* CJGVisualEffectViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5158295DC426002ABF55 /* CJGVisualEffectViewChain.m */; };
-		52FE5184295DC426002ABF55 /* CJGButtonChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5159295DC426002ABF55 /* CJGButtonChain.h */; };
-		52FE5185295DC426002ABF55 /* CJGWebViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE515A295DC426002ABF55 /* CJGWebViewChain.m */; };
-		52FE5186295DC426002ABF55 /* CJGImageViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE515B295DC426002ABF55 /* CJGImageViewChain.h */; };
-		52FE5187295DC426002ABF55 /* CJGUIViewChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE515C295DC426002ABF55 /* CJGUIViewChainHeader.h */; };
-		52FE5188295DC426002ABF55 /* CJGPickerViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE515D295DC426002ABF55 /* CJGPickerViewChain.m */; };
-		52FE5189295DC426002ABF55 /* CJGDatePickerViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE515E295DC426002ABF55 /* CJGDatePickerViewChain.h */; };
-		52FE518A295DC426002ABF55 /* CJGTableViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE515F295DC426002ABF55 /* CJGTableViewChain.m */; };
-		52FE518B295DC426002ABF55 /* CJGActivityIndicatorViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5160295DC426002ABF55 /* CJGActivityIndicatorViewChain.h */; };
-		52FE518C295DC426002ABF55 /* CJGTextViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5161295DC426002ABF55 /* CJGTextViewChain.h */; };
-		52FE518D295DC426002ABF55 /* CJGScrollViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5162295DC426002ABF55 /* CJGScrollViewChain.m */; };
-		52FE518E295DC426002ABF55 /* CJGCollectionViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5163295DC426002ABF55 /* CJGCollectionViewChain.m */; };
-		52FE518F295DC426002ABF55 /* CJGTableViewCellChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5164295DC426002ABF55 /* CJGTableViewCellChain.h */; };
-		52FE5190295DC426002ABF55 /* CJGProgressViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5165295DC426002ABF55 /* CJGProgressViewChain.m */; };
-		52FE5191295DC426002ABF55 /* CJGSliderViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5166295DC426002ABF55 /* CJGSliderViewChain.m */; };
-		52FE5192295DC426002ABF55 /* CJGViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5167295DC426002ABF55 /* CJGViewChain.h */; };
-		52FE5193295DC426002ABF55 /* CJGSwitchChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5168295DC426002ABF55 /* CJGSwitchChain.h */; };
-		52FE5194295DC426002ABF55 /* CJGSegmentedControlChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE5169295DC426002ABF55 /* CJGSegmentedControlChain.h */; };
-		52FE5195295DC426002ABF55 /* CJGTextFieldChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE516A295DC426002ABF55 /* CJGTextFieldChain.m */; };
-		52FE5196295DC426002ABF55 /* CJGWebViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE516B295DC426002ABF55 /* CJGWebViewChain.h */; };
-		52FE5197295DC426002ABF55 /* CJGButtonChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE516C295DC426002ABF55 /* CJGButtonChain.m */; };
-		52FE5198295DC426002ABF55 /* CJGLabelChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE516D295DC426002ABF55 /* CJGLabelChain.h */; };
-		52FE5199295DC426002ABF55 /* CJGVisualEffectViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE516E295DC426002ABF55 /* CJGVisualEffectViewChain.h */; };
-		52FE519A295DC426002ABF55 /* CJGControlChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE516F295DC426002ABF55 /* CJGControlChain.h */; };
-		52FE519B295DC426002ABF55 /* UIView+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5170295DC426002ABF55 /* UIView+CJGChain.m */; };
-		52FE519C295DC426002ABF55 /* CJGImageViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5171295DC426002ABF55 /* CJGImageViewChain.m */; };
+		4808E806D0978C0171D1CD659D3E27D7 /* CJGChainBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E431B79183FFEA217973DCA9EDC98C /* CJGChainBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B06DC504ACD733066B102999634A172 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		4D7F123FD1BB9992A0D42E9F7C27612F /* UIGestureRecognizer+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB7CF3A1E37E3096CA558890B99D309 /* UIGestureRecognizer+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50051BAE0D9CA477E092FEEBC9260341 /* CJGChainProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B409AEDD9BACC95058E2DC27B10A18 /* CJGChainProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DFE388EBC12B2C0C096084FF6D3DA8 /* CJGProgressViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0ACE5F14A7183909C15C845B3D6325 /* CJGProgressViewChain.m */; };
+		53586D813BF4D4766CFDBCEB63A21383 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553E55AEF5A149D42EB03288B5176510 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56178720E87E02D0E34F512656C58E43 /* CJGActivityIndicatorViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DB01B4C8A49ECDEC3F5EB5E5D6A77537 /* CJGActivityIndicatorViewChain.m */; };
+		5B96E6141E308C526173B8064AEA46C1 /* CJGEmiiterLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD0F481659F768515ACC3B04A437F2F /* CJGEmiiterLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D68170DF59D5E4A73CC3D69D7D9C7C5 /* CJGBaseControlChain.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8A64364A07EA46AFD4D24A03C93403 /* CJGBaseControlChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D82C3E9549025EAAD90FC590883A0A3 /* CJGEmiiterLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB778D33A3290D31155CC207AF39CA /* CJGEmiiterLayerChain.m */; };
 		5DBE176BA9D68009ABA1E212858FDF67 /* Pods-CJGChainProgramming_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAC5A48EE34F15F53005E61042F40B2 /* Pods-CJGChainProgramming_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		613CBE995C5E57BA1F9BD5511ABDFBCF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6711F8A26D9B46154A729500A90B60E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6921D3604B2DB74D6204D0C38B69EF41 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		62CF9471C258DD6449F2875460B3EEFB /* CJGShaperLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA71637C4328567A54AB8AA2C905ED3E /* CJGShaperLayerChain.m */; };
+		638C69092C2763D477981B05C83E7CE9 /* CJGImageViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A89D30AF7F8E37F86D2F8111EFA65C2 /* CJGImageViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B0E84F60A2269268B03C2199F35762 /* CJGViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2C67B51D9787A9C662227CC7F5E7B /* CJGViewChain.m */; };
+		65A12290F7C6FDD85815F90506A5723D /* CJGTransFormLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84D036C678F5FC5332809AF4A5DEBC /* CJGTransFormLayerChain.m */; };
+		67B5F556287A3FED0C9836F138C74848 /* CJGBaseViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 764541D94548A18C3B564F9410FE9DE0 /* CJGBaseViewChain.m */; };
+		67CE5073C0085A0926D63C23E25D8227 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E1177B4C9BCDCA9BB5CEE811C69931 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A16690B1C0E047E821BEE1081996BE2 /* Pods-CJGChainProgramming_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E40E85E9CD836C816DD6C02A5D90E /* Pods-CJGChainProgramming_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7055290B8556EF648DDDF52DF22684FB /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7258DD815A57F68B4B4E0D43DED4699F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84D78111FC4A2B0D1D12465DBAEC55A0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FCD3F442F14853068EF330401465FB6 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9411BD2A2B9D32077EDAC0E43F3BCAF4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		9F9709602609F5EC6FC1ADC6CC385244 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		A0F3474CB6E7DB4ABEB3E26DB2E45215 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F1DDF82E278B9B7C72F8B96D3A275C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A41BEF4DB309677424BB8C054FC6E146 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4B0AC8B5C555D57A3B60F2B04B602D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6ACDAF762A83BC460086129C30715BBA /* CJGBaseScrollViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 094386CDD4B44ACD17E4313C74D5CE34 /* CJGBaseScrollViewChain.m */; };
+		6E0CE6C4275FC7CE2F021A1B7E89BB96 /* CJGBaseControlChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 056D3AC9ABDD2C8C1EEF1D414D5F1716 /* CJGBaseControlChain.m */; };
+		6FB50AF9D0C3A8703C9BABD3389FDE5E /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702AE9A26C4DAD578BD51CD5990E4CB7 /* CJGReplicatorLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B30B7B958C7BD20C7598C9387F6804 /* CJGReplicatorLayerChain.m */; };
+		73A21938A71204AF3F2AFE5465B65735 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		74540144468D9DB3655B589FE1505576 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A9A8E058CBFA80A5ECE2475D74B1BE /* UIButton+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AF09DB77D49D31425CFF7D64B58372 /* UIButton+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0D44BAFD459F75403FB38B19BD9375 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		7DF7174498D153B5E0C4097FC2159EF6 /* CJGScrollLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F5FC07606F20F353C32877B6C3303B /* CJGScrollLayerChain.m */; };
+		800CA84A9947EC84C9975120B35E6CA1 /* CJGProgressViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 77917041EF77B0615D41F579F227293B /* CJGProgressViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81757E8CE971710A452A1BC394FDC695 /* CJGGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = D18A93617CF6B138C7AC8FA0D3760BF9 /* CJGGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837F5F8A24DF06AB7E097A275129437E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		8597D223D08A2BB45D27E73394AC1174 /* CJGScrollViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6480EAA672741EC2DD7ACF25451021 /* CJGScrollViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8644389F8576BACF092D63069F116DF1 /* CJGTextLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1CE37C7A46AF400F659000863E67C7 /* CJGTextLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A51F3E035D77707CED57FFC2ED50C7 /* CJGPinchGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C964FDA77568478DBCD4E079B9ED51 /* CJGPinchGestureChain.m */; };
+		8F44F7420E59BDC0E3FB95B81767776B /* UIView+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9373DC76C4D306B74149F0FFE6A57 /* UIView+CJGChain.m */; };
+		8FB987F4BB99F2E157EFD4E844AD5C75 /* CJGPinchGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 6275738FEF227A18D5AEDB7E9923EBD9 /* CJGPinchGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93166AA309FE2D029F80B0FEC22DCF32 /* CJGVisualEffectViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FDD57BC813388441ADBAED3CAAD307 /* CJGVisualEffectViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A85B2998307DDCD9E7F4DD40720115 /* CJGTableViewCellChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED8F81607777E3301AA025FF0CAECD0 /* CJGTableViewCellChain.m */; };
+		94CD7A07FC17FE50A899F820E4C679B4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999D4C3E706154BE3CF9ABDE409872DB /* CJGWebViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC12DBB9715D8233ED36E468CD81C90 /* CJGWebViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C09B91812AE9007963AFC3E0C4B04F6 /* CJGButtonChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6E2EE2394B758CF36BBE9BD40AB766 /* CJGButtonChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2E212552B50B4A69EBAFB23CF3D58A /* CJGTableViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F82C4D084BFE9D3D3921109E78ACF7 /* CJGTableViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D71498105BF68CB08308FD60F6A83C9 /* NSAttributedString+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 991E9EF8B241B305F3E67C867E7AA5E2 /* NSAttributedString+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCFEE9ACF4F6FE3D27BE3A840F19C18 /* CJGChainDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A9008670ED2CDDA795A6E3771EF1EE5A /* CJGChainDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E31C9D6EC42EAD27E755EF681C029A4 /* CJGLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = DE30694C7382F6E8FE0B3DD5E35AF052 /* CJGLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A016685E62132A84F83FBF659A6D61AF /* CJGBaseLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CC267D0E75B9B35D408E98FC337C0 /* CJGBaseLayerChain.m */; };
+		A1D1BD932F8C1070887DE7250B0BCCF7 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A300265A2D73F6BD9055BD17EE1F3A02 /* CJGSwitchChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F676B7C1CC6C2A08A6C58B5E7F94C282 /* CJGSwitchChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64EA50249A7EAB10B804411A0E1035B /* CJGReplicatorLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EEA16E386B933DB627222E63E0C153 /* CJGReplicatorLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99E9CEA056405C3F0D0C2E0F5E25D8E /* NSNumber+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEC70BA65D9E1E3D40E6A07C25CA5AB /* NSNumber+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA20C9B6CB054D922C23E1BF93B85D79 /* Pods-CJGChainProgramming_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B68221B111FF74E56E2A053F5A47A02 /* Pods-CJGChainProgramming_Example-dummy.m */; };
-		B076D24395F48F0456E479178691436E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		B08DDFDD25B1E2ABB2992A2FC8817057 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC6A5BD45C9E1FBFC47AC45417BAC18D /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD23E9298CD48F1F76067A6A55EE0E9B /* CJGShaperLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = ED57E35BCE19D84471C1E0CAE923A829 /* CJGShaperLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B192F8BC08C42F41BD4BB0DCD9AEF971 /* CJGTableViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08074AAA2281564B2DA38A46576F93 /* CJGTableViewChain.m */; };
+		B1EFCD59FFB0F581D7FD3629221779F4 /* CJGGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 09510A044FAFE16B4A4ACB249F1CBA5D /* CJGGestureChain.m */; };
+		B33142D05104B175A484777D972A4070 /* UITextField+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A591D77B14673C0332E034596384F /* UITextField+CJGChain.m */; };
+		B353693DB1E25AD097F0D2AB124571AF /* CJGVisualEffectViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 656586F8BE552AF221AF8FAFA0502246 /* CJGVisualEffectViewChain.m */; };
+		B694EDECC0021D5380C711303320A210 /* CJGPanGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BBE379F7B6BA727A2F9E2E7E894D72 /* CJGPanGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79E42CE46E0B07BC2B7599A3D459751 /* CJGTextViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E952FC4CD7A257235CA4B3BBB94079 /* CJGTextViewChain.m */; };
+		B7B70CA8408763C4864125C4A658A807 /* CJGSegmentedControlChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D32E38CDCCAAB689898819857FC8F /* CJGSegmentedControlChain.m */; };
+		B87815B21F158265B405085A48DAA684 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		B8F956785F6D56EE46425A49C4C0C6E4 /* CJGSegmentedControlChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 087D38B26FCE3C1E659FAA47F58C997B /* CJGSegmentedControlChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B937A05C55B4149F4E0D47C3F1092A67 /* CJGTransFormLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D79D1975940B0275BD747BF425AA78F /* CJGTransFormLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA18F1B553F2C33134D8029DB6CFDC7 /* Pods-CJGChainProgramming_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E556841FF793AA4098CE4C6227F92 /* Pods-CJGChainProgramming_Tests-dummy.m */; };
-		C8BBC4E50B0DED3531210014F58031DB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF34F8FC9E508EFAE682C319E64AF8B6 /* CJGControlChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D700A1310B02DBA3904C4E2CC919E469 /* CJGControlChain.m */; };
+		C3C7152A7728328B9199B70887DB27F4 /* CJGPickerViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDF7DD3F3D380B6D793D03DA923C85E /* CJGPickerViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5531EA7DD3775D9C456F8092F932996 /* CJGLongPressGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 16421BE6C89AA9EBB7ECDC8693425D52 /* CJGLongPressGestureChain.m */; };
+		C5DEAC65698188473E928D034E82F5C6 /* NSString+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A92BDA4B23D13465778A558B3273DEC /* NSString+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C63BC2F98BFB4C79CA5841BAF9D59F12 /* UIScrollView+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C7C831C92942E6F8F5C124E2984161 /* UIScrollView+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7813C2ACC2838D17A07F018DD6D8381 /* CJGCollectionViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AEFA8E637D72E76AB02366D80402EB /* CJGCollectionViewChain.m */; };
+		C8A525969040568DF32B4C3A1AF06117 /* NSDictionary+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD516636D55DFB8EBF5D39CF5A20C8D /* NSDictionary+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C92A75F49CE815CA8206272EC5ABA4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		CF8E2D003CB4BF3D9801FD243987F68D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		DA686B752BD6BE24A57092FC5666A446 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		E14FCAF826B7AC9994CE4A58B1037DC8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2CC4A78F07C7A7750E5721E5C29924A /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E506FF05E1A440E9089E401D813D5C29 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		E69C3025312F0179F53BB8239A026048 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F28673807917DBEA0FDA3816248E5DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		FBA5966CB4C691F815B76D7E5612335E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		C957F68CE09FE948ACC125B2E0D1BF7D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		CA6D3699339BCEBE41C5054A130D5865 /* CJGChainProgramming-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4753EEB7B4E7ED2CA893FFA6B296FFD9 /* CJGChainProgramming-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA757E25D60F121BF1ED9037D2E38CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CEAE86346704C15F7E1FB3686D0F5D8A /* CJGButtonChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 58425214CD95DCC7F1D71AE1BDD60A3C /* CJGButtonChain.m */; };
+		D0684D3D43BCB33380F19C9E11830DD0 /* CJGUIGestureChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C31221C06DC8DFF36C91F3392C48082 /* CJGUIGestureChainHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D17807C3BDB8DD2D68A46E4E0391BA28 /* CJGWebViewChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BBF8FB54CEAE82ECA2409EE16C3560 /* CJGWebViewChain.m */; };
+		D2B23D5AC8334E156FADDC8145187452 /* CJGDatePickerViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD421EFFCE88B7D67B5C09BC8520B33 /* CJGDatePickerViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D379E0A71DEB99FA63BCE69D70008246 /* CJGSwipeGestureChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F9D2AA20A04ADFD30C1FE6E2437A0 /* CJGSwipeGestureChain.m */; };
+		D39B30D3DA2AE0833063D85A07584702 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46BD745AF07DA97C03D9765FD6D56C8 /* UIControl+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526729DF4CB44243F94E2CBBE7A1D48 /* UIControl+CJGChain.m */; };
+		D89CEDF83C7AF0A1EC66EDF2E03736D4 /* CJGLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DFC863E1F50ACFBDD3B47B17E1A92 /* CJGLayerChain.m */; };
+		D92CC27296132F2FF8235E98DD8C78EE /* CJGLabelChain.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7AB2887C9A02F7B3FBEA74766F2D0 /* CJGLabelChain.m */; };
+		D9E98A9CB63EFB1D4656B3D2B0BEB6A4 /* UIControl+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD7A5833A221C53792CA54223CEF634 /* UIControl+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8E9FF7318A4B5FA43C9330DABC90B2 /* CJGTapGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A43BF08F2685179959C8E08E95CCCBFD /* CJGTapGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA31DB0BFFA93527516840AC4121C84 /* NSData+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8B60D98B75B04EBFF07C3A8EEE2C4 /* NSData+CJGChain.m */; };
+		DDBE10164EDD541C311CC4DEEC9359AE /* CJGSwipeGestureChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A40AD113724503CFD29B5A8F32856A /* CJGSwipeGestureChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFE783E9049B9295E721A8B287278083 /* NSObject+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8869FE5F38D0ADB329C45D46C596C783 /* NSObject+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0BB6A2ADE5462EDE2BAD4CAAEF0322F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		E15DA0A78BAF982419311AFEC50B3E20 /* CJGTiledLayerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE4EDC750E4C2B2EE17A8DF623F6EF /* CJGTiledLayerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1CD660F1822CAE4F191F3A833A57BC7 /* NSAttributedString+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4A96D5A7431DCB9B8C79C07795AC4 /* NSAttributedString+CJGChain.m */; };
+		E4211409287A231DDCF70E8733C3D04A /* CJGViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EF39048A67EE5ACDC53256EB2FD289F2 /* CJGViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E462B25ABD1F97958509E24BF2AAE6CB /* UIView+CJGChain.h in Headers */ = {isa = PBXBuildFile; fileRef = ED074D383031E05EFF727D1F3529172C /* UIView+CJGChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65CD5B62E8CB231C3ADC0152744AAA0 /* UIGestureRecognizer+CJGChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9543534F35ADCA275E3A1CCFDD36 /* UIGestureRecognizer+CJGChain.m */; };
+		E732DD1D327E127774F7CACBB7BE2319 /* CJGBaseScrollViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AF20D715980082D9C7D3D083829C8F /* CJGBaseScrollViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75FD87BB3D14531F0AFC3FC6BD9BB67 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		E882F0A124D25B471FA0D85089B1A45C /* CJGTextFieldChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FE00572B24C91CD420FB2BD7228AD3F0 /* CJGTextFieldChain.m */; };
+		EEAB83D36E0A17B92D431A240674E7A7 /* CJGTiledLayerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A30B48B07285AEBC261D2285BDEB0665 /* CJGTiledLayerChain.m */; };
+		F01057313739083413BA767CC2F3485A /* CJGSwitchChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EB67EAD4D6749EA20BBD01A18F7FB503 /* CJGSwitchChain.m */; };
+		F31E452059B8B011357A5E4C3B9E4B56 /* CJGTextViewChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E696FB1C960CBD5799B81D2CBAFCAD0 /* CJGTextViewChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F512870B45C0C6B24E38FD2EE25618AE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D89E3D115349FD73AF1A90DEBB09B9 /* CJGLabelChain.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3D900CB68AC64C13844E1D05938FF9 /* CJGLabelChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F876AF6C77DA17F3DE4E468C159A8977 /* CJGControlChain.h in Headers */ = {isa = PBXBuildFile; fileRef = ED014C798AA56C384A88C20594EB163F /* CJGControlChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FC775C68142583E35695AD522C3127 /* CJGUIViewChainHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AF369D9C867EF0C97F00E602C89E7148 /* CJGUIViewChainHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9F7452C76F4A485B2BEE93811E6176 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		30979D5A4438292797B7934F553FDE51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 566AE75AEB7766EB4E3DB994ECBB45A8;
-			remoteInfo = CJGChainProgramming;
-		};
-		9433787FF518529E8B96F597F1C16573 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		AA7F50BA94A607609207A8D89C443FED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		C1FD72EB5D23714A3462C810A3FE9923 /* PBXContainerItemProxy */ = {
+		298071E6D72C8F0858655E22489EFC77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 26A7F29F4ABF807DD59A856981D9A118;
 			remoteInfo = "Pods-CJGChainProgramming_Example";
 		};
+		36450F71C9E76DE835466E8C40AF566F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566AE75AEB7766EB4E3DB994ECBB45A8;
+			remoteInfo = CJGChainProgramming;
+		};
+		9655D8A2ECD2B7C038808546AAF4A84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		AF3D424B884C267E66A5D3A53A320089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E9E4DAEBABFF43126ABAD3D89CED3B /* CJGChainProgramming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGChainProgramming.debug.xcconfig; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		056D3AC9ABDD2C8C1EEF1D414D5F1716 /* CJGBaseControlChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGBaseControlChain.m; path = CJGChainProgramming/Classes/UIView/CJGBaseControlChain.m; sourceTree = "<group>"; };
+		06C964FDA77568478DBCD4E079B9ED51 /* CJGPinchGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGPinchGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGPinchGestureChain.m; sourceTree = "<group>"; };
+		06FF4FAA9F9869DEAEE8073E5CE441BA /* CJGRotationGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGRotationGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGRotationGestureChain.h; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		087D38B26FCE3C1E659FAA47F58C997B /* CJGSegmentedControlChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGSegmentedControlChain.h; path = CJGChainProgramming/Classes/UIView/CJGSegmentedControlChain.h; sourceTree = "<group>"; };
+		091CC267D0E75B9B35D408E98FC337C0 /* CJGBaseLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGBaseLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGBaseLayerChain.m; sourceTree = "<group>"; };
+		094386CDD4B44ACD17E4313C74D5CE34 /* CJGBaseScrollViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGBaseScrollViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGBaseScrollViewChain.m; sourceTree = "<group>"; };
+		09510A044FAFE16B4A4ACB249F1CBA5D /* CJGGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGGestureChain.m; sourceTree = "<group>"; };
+		0956F5FEB60A42A75B1507F5DF435205 /* UIScrollView+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UIScrollView+CJGChain.m"; sourceTree = "<group>"; };
 		098963231C5D2874682874D6BDD7E905 /* Pods-CJGChainProgramming_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGChainProgramming_Example"; path = Pods_CJGChainProgramming_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FDD57BC813388441ADBAED3CAAD307 /* CJGVisualEffectViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGVisualEffectViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGVisualEffectViewChain.h; sourceTree = "<group>"; };
+		0FB4A96D5A7431DCB9B8C79C07795AC4 /* NSAttributedString+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSAttributedString+CJGChain.m"; sourceTree = "<group>"; };
+		1324F1D0F538667A56687ED294302ED7 /* CJGChainProgramming-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGChainProgramming-Info.plist"; sourceTree = "<group>"; };
+		16421BE6C89AA9EBB7ECDC8693425D52 /* CJGLongPressGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGLongPressGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGLongPressGestureChain.m; sourceTree = "<group>"; };
+		17E2C67B51D9787A9C662227CC7F5E7B /* CJGViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGViewChain.m; sourceTree = "<group>"; };
+		17F82C4D084BFE9D3D3921109E78ACF7 /* CJGTableViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTableViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGTableViewChain.h; sourceTree = "<group>"; };
 		1AD5F6CDE57F7DC4C28FE9A39396B564 /* Pods-CJGChainProgramming_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJGChainProgramming_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CD0F481659F768515ACC3B04A437F2F /* CJGEmiiterLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGEmiiterLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGEmiiterLayerChain.h; sourceTree = "<group>"; };
 		1D3E40E85E9CD836C816DD6C02A5D90E /* Pods-CJGChainProgramming_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJGChainProgramming_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1ED8F81607777E3301AA025FF0CAECD0 /* CJGTableViewCellChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTableViewCellChain.m; path = CJGChainProgramming/Classes/UIView/CJGTableViewCellChain.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2777F0F103282B5D301CE712798E5E97 /* CJGChainProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGChainProgramming.h; path = CJGChainProgramming/Classes/CJGChainProgramming.h; sourceTree = "<group>"; };
+		2184A0B13B96D4D8C1A31C4EE87EF553 /* NSDictionary+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSDictionary+CJGChain.m"; sourceTree = "<group>"; };
+		23E43BA2A03EABCF2B78BDF1394DDDEF /* CJGSliderViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGSliderViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGSliderViewChain.m; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2CC3312CA3239EBD50DCC2E402F1C646 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D16F6BBB5426BD51A2093E9463112ED /* CJGScrollLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGScrollLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGScrollLayerChain.h; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		35129D14ED51B9582339A72DD281390F /* Pods-CJGChainProgramming_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGChainProgramming_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35E46BDE1AA34F02F4E0C9B71FDDCC74 /* CJGPickerViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGPickerViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGPickerViewChain.m; sourceTree = "<group>"; };
+		36E952FC4CD7A257235CA4B3BBB94079 /* CJGTextViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTextViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGTextViewChain.m; sourceTree = "<group>"; };
 		3AAC5A48EE34F15F53005E61042F40B2 /* Pods-CJGChainProgramming_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJGChainProgramming_Example-umbrella.h"; sourceTree = "<group>"; };
+		3AEC70BA65D9E1E3D40E6A07C25CA5AB /* NSNumber+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSNumber+CJGChain.h"; sourceTree = "<group>"; };
+		3C39548FC7766BB6F7F2CF71FFCDCA08 /* CJGTableViewCellChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTableViewCellChain.h; path = CJGChainProgramming/Classes/UIView/CJGTableViewCellChain.h; sourceTree = "<group>"; };
 		3C41526D689635A8C287CE9102E6CDDA /* Pods-CJGChainProgramming_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGChainProgramming_Example-Info.plist"; sourceTree = "<group>"; };
-		3D93E32AD042CB1D2CAD0DBCA4B96522 /* CJGChainProgramming-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGChainProgramming-Info.plist"; sourceTree = "<group>"; };
+		3D8DFC863E1F50ACFBDD3B47B17E1A92 /* CJGLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGLayerChain.m; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		42F00BB7D415EA907CB417BA45324EB5 /* CJGScrollViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGScrollViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGScrollViewChain.m; sourceTree = "<group>"; };
+		443EB059990640B2C03539DF38192683 /* NSObject+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSObject+CJGChain.m"; sourceTree = "<group>"; };
+		44E7277909023011B61CA69D448A25F7 /* CJGDatePickerViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGDatePickerViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGDatePickerViewChain.m; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4753EEB7B4E7ED2CA893FFA6B296FFD9 /* CJGChainProgramming-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGChainProgramming-umbrella.h"; sourceTree = "<group>"; };
+		47E431B79183FFEA217973DCA9EDC98C /* CJGChainBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGChainBase.h; path = CJGChainProgramming/Classes/CJGChainProgrammingBase/CJGChainBase.h; sourceTree = "<group>"; };
+		4A92BDA4B23D13465778A558B3273DEC /* NSString+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSString+CJGChain.h"; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4EC7ED5184A72C47319260B6056546A3 /* CJGTextFieldChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTextFieldChain.h; path = CJGChainProgramming/Classes/UIView/CJGTextFieldChain.h; sourceTree = "<group>"; };
+		4F64D0FBEB168274E9087E9E25BD6C33 /* CALayer+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+CJGChain.m"; path = "CJGChainProgramming/Classes/CALayer/CALayer+CJGChain.m"; sourceTree = "<group>"; };
+		4FDF7DD3F3D380B6D793D03DA923C85E /* CJGPickerViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGPickerViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGPickerViewChain.h; sourceTree = "<group>"; };
 		50B1936A465603EF69DE1A7FBFB097F0 /* Pods-CJGChainProgramming_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGChainProgramming_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52FE2BD3295D8AE40027845B /* UIGestureRecognizer+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BD4295D8AE40027845B /* UIScrollView+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BD5295D8AE40027845B /* UIControl+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BD6295D8AE40027845B /* UIButton+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BD7295D8AE40027845B /* UITextField+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BD8295D8AE40027845B /* UILabel+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BD9295D8AE40027845B /* UIGestureRecognizer+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BDA295D8AE40027845B /* UIScrollView+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BDB295D8AE40027845B /* UITextField+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BDC295D8AE40027845B /* UIButton+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BDD295D8AE40027845B /* UIControl+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BDE295D8AE40027845B /* UILabel+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE0295D8AE40027845B /* NSString+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE1295D8AE40027845B /* NSData+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE2295D8AE40027845B /* NSNumber+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE3295D8AE40027845B /* NSObject+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE4295D8AE40027845B /* NSDictionary+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE5295D8AE40027845B /* NSAttributedString+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CJGChain.m"; sourceTree = "<group>"; };
-		52FE2BE6295D8AE40027845B /* NSData+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BE7295D8AE40027845B /* NSString+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BE8295D8AE40027845B /* NSNumber+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BE9295D8AE40027845B /* NSAttributedString+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BEA295D8AE40027845B /* NSDictionary+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CJGChain.h"; sourceTree = "<group>"; };
-		52FE2BEB295D8AE40027845B /* NSObject+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CJGChain.h"; sourceTree = "<group>"; };
-		52FE50F6295DC3C4002ABF55 /* CJGTiledLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTiledLayerChain.m; sourceTree = "<group>"; };
-		52FE50F7295DC3C4002ABF55 /* CJGGradientLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGGradientLayerChain.h; sourceTree = "<group>"; };
-		52FE50F8295DC3C4002ABF55 /* CALayer+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+CJGChain.h"; sourceTree = "<group>"; };
-		52FE50F9295DC3C4002ABF55 /* CJGShaperLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGShaperLayerChain.h; sourceTree = "<group>"; };
-		52FE50FA295DC3C4002ABF55 /* CJGTextLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTextLayerChain.h; sourceTree = "<group>"; };
-		52FE50FB295DC3C4002ABF55 /* CJGTransFormLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTransFormLayerChain.m; sourceTree = "<group>"; };
-		52FE50FC295DC3C4002ABF55 /* CJGScrollLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGScrollLayerChain.h; sourceTree = "<group>"; };
-		52FE50FD295DC3C4002ABF55 /* CJGReplicatorLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGReplicatorLayerChain.h; sourceTree = "<group>"; };
-		52FE50FE295DC3C4002ABF55 /* CJGEmiiterLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGEmiiterLayerChain.m; sourceTree = "<group>"; };
-		52FE50FF295DC3C4002ABF55 /* CJGLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGLayerChain.h; sourceTree = "<group>"; };
-		52FE5100295DC3C4002ABF55 /* CJGScrollLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGScrollLayerChain.m; sourceTree = "<group>"; };
-		52FE5101295DC3C4002ABF55 /* CJGTransFormLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTransFormLayerChain.h; sourceTree = "<group>"; };
-		52FE5102295DC3C4002ABF55 /* CJGTextLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTextLayerChain.m; sourceTree = "<group>"; };
-		52FE5103295DC3C4002ABF55 /* CJGShaperLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGShaperLayerChain.m; sourceTree = "<group>"; };
-		52FE5104295DC3C4002ABF55 /* CALayer+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CJGChain.m"; sourceTree = "<group>"; };
-		52FE5105295DC3C4002ABF55 /* CJGGradientLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGGradientLayerChain.m; sourceTree = "<group>"; };
-		52FE5106295DC3C4002ABF55 /* CJGTiledLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTiledLayerChain.h; sourceTree = "<group>"; };
-		52FE5107295DC3C4002ABF55 /* CJGEmiiterLayerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGEmiiterLayerChain.h; sourceTree = "<group>"; };
-		52FE5108295DC3C4002ABF55 /* CJGReplicatorLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGReplicatorLayerChain.m; sourceTree = "<group>"; };
-		52FE5109295DC3C4002ABF55 /* CJGCALayerChainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGCALayerChainHeader.h; sourceTree = "<group>"; };
-		52FE510A295DC3C4002ABF55 /* CJGLayerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGLayerChain.m; sourceTree = "<group>"; };
-		52FE5121295DC3F0002ABF55 /* CJGChainBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGChainBase.m; sourceTree = "<group>"; };
-		52FE5122295DC3F0002ABF55 /* CJGChainBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGChainBase.h; sourceTree = "<group>"; };
-		52FE5123295DC3F0002ABF55 /* CJGChainDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGChainDefine.h; sourceTree = "<group>"; };
-		52FE5128295DC40B002ABF55 /* CJGPanGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGPanGestureChain.m; sourceTree = "<group>"; };
-		52FE5129295DC40B002ABF55 /* CJGTapGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTapGestureChain.m; sourceTree = "<group>"; };
-		52FE512A295DC40B002ABF55 /* CJGGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGGestureChain.h; sourceTree = "<group>"; };
-		52FE512B295DC40B002ABF55 /* CJGUIGestureChainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGUIGestureChainHeader.h; sourceTree = "<group>"; };
-		52FE512C295DC40B002ABF55 /* CJGSwipeGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGSwipeGestureChain.m; sourceTree = "<group>"; };
-		52FE512D295DC40B002ABF55 /* CJGLongPressGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGLongPressGestureChain.h; sourceTree = "<group>"; };
-		52FE512E295DC40B002ABF55 /* CJGPinchGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGPinchGestureChain.h; sourceTree = "<group>"; };
-		52FE512F295DC40B002ABF55 /* CJGRotationGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGRotationGestureChain.m; sourceTree = "<group>"; };
-		52FE5130295DC40B002ABF55 /* CJGTapGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTapGestureChain.h; sourceTree = "<group>"; };
-		52FE5131295DC40B002ABF55 /* CJGPanGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGPanGestureChain.h; sourceTree = "<group>"; };
-		52FE5132295DC40B002ABF55 /* CJGGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGGestureChain.m; sourceTree = "<group>"; };
-		52FE5133295DC40B002ABF55 /* CJGLongPressGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGLongPressGestureChain.m; sourceTree = "<group>"; };
-		52FE5134295DC40B002ABF55 /* CJGSwipeGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGSwipeGestureChain.h; sourceTree = "<group>"; };
-		52FE5135295DC40B002ABF55 /* CJGRotationGestureChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGRotationGestureChain.h; sourceTree = "<group>"; };
-		52FE5136295DC40B002ABF55 /* CJGPinchGestureChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGPinchGestureChain.m; sourceTree = "<group>"; };
-		52FE5147295DC426002ABF55 /* CJGTableViewCellChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTableViewCellChain.m; sourceTree = "<group>"; };
-		52FE5148295DC426002ABF55 /* CJGCollectionViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGCollectionViewChain.h; sourceTree = "<group>"; };
-		52FE5149295DC426002ABF55 /* CJGScrollViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGScrollViewChain.h; sourceTree = "<group>"; };
-		52FE514A295DC426002ABF55 /* CJGTextViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTextViewChain.m; sourceTree = "<group>"; };
-		52FE514B295DC426002ABF55 /* CJGActivityIndicatorViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGActivityIndicatorViewChain.m; sourceTree = "<group>"; };
-		52FE514C295DC426002ABF55 /* CJGTableViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTableViewChain.h; sourceTree = "<group>"; };
-		52FE514D295DC426002ABF55 /* CJGDatePickerViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGDatePickerViewChain.m; sourceTree = "<group>"; };
-		52FE514E295DC426002ABF55 /* CJGPickerViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGPickerViewChain.h; sourceTree = "<group>"; };
-		52FE514F295DC426002ABF55 /* CJGTextFieldChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTextFieldChain.h; sourceTree = "<group>"; };
-		52FE5150295DC426002ABF55 /* CJGSegmentedControlChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGSegmentedControlChain.m; sourceTree = "<group>"; };
-		52FE5151295DC426002ABF55 /* CJGSwitchChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGSwitchChain.m; sourceTree = "<group>"; };
-		52FE5152295DC426002ABF55 /* CJGViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGViewChain.m; sourceTree = "<group>"; };
-		52FE5153295DC426002ABF55 /* CJGSliderViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGSliderViewChain.h; sourceTree = "<group>"; };
-		52FE5154295DC426002ABF55 /* CJGProgressViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGProgressViewChain.h; sourceTree = "<group>"; };
-		52FE5155295DC426002ABF55 /* UIView+CJGChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CJGChain.h"; sourceTree = "<group>"; };
-		52FE5156295DC426002ABF55 /* CJGControlChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGControlChain.m; sourceTree = "<group>"; };
-		52FE5157295DC426002ABF55 /* CJGLabelChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGLabelChain.m; sourceTree = "<group>"; };
-		52FE5158295DC426002ABF55 /* CJGVisualEffectViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGVisualEffectViewChain.m; sourceTree = "<group>"; };
-		52FE5159295DC426002ABF55 /* CJGButtonChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGButtonChain.h; sourceTree = "<group>"; };
-		52FE515A295DC426002ABF55 /* CJGWebViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGWebViewChain.m; sourceTree = "<group>"; };
-		52FE515B295DC426002ABF55 /* CJGImageViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGImageViewChain.h; sourceTree = "<group>"; };
-		52FE515C295DC426002ABF55 /* CJGUIViewChainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGUIViewChainHeader.h; sourceTree = "<group>"; };
-		52FE515D295DC426002ABF55 /* CJGPickerViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGPickerViewChain.m; sourceTree = "<group>"; };
-		52FE515E295DC426002ABF55 /* CJGDatePickerViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGDatePickerViewChain.h; sourceTree = "<group>"; };
-		52FE515F295DC426002ABF55 /* CJGTableViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTableViewChain.m; sourceTree = "<group>"; };
-		52FE5160295DC426002ABF55 /* CJGActivityIndicatorViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGActivityIndicatorViewChain.h; sourceTree = "<group>"; };
-		52FE5161295DC426002ABF55 /* CJGTextViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTextViewChain.h; sourceTree = "<group>"; };
-		52FE5162295DC426002ABF55 /* CJGScrollViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGScrollViewChain.m; sourceTree = "<group>"; };
-		52FE5163295DC426002ABF55 /* CJGCollectionViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGCollectionViewChain.m; sourceTree = "<group>"; };
-		52FE5164295DC426002ABF55 /* CJGTableViewCellChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGTableViewCellChain.h; sourceTree = "<group>"; };
-		52FE5165295DC426002ABF55 /* CJGProgressViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGProgressViewChain.m; sourceTree = "<group>"; };
-		52FE5166295DC426002ABF55 /* CJGSliderViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGSliderViewChain.m; sourceTree = "<group>"; };
-		52FE5167295DC426002ABF55 /* CJGViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGViewChain.h; sourceTree = "<group>"; };
-		52FE5168295DC426002ABF55 /* CJGSwitchChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGSwitchChain.h; sourceTree = "<group>"; };
-		52FE5169295DC426002ABF55 /* CJGSegmentedControlChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGSegmentedControlChain.h; sourceTree = "<group>"; };
-		52FE516A295DC426002ABF55 /* CJGTextFieldChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGTextFieldChain.m; sourceTree = "<group>"; };
-		52FE516B295DC426002ABF55 /* CJGWebViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGWebViewChain.h; sourceTree = "<group>"; };
-		52FE516C295DC426002ABF55 /* CJGButtonChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGButtonChain.m; sourceTree = "<group>"; };
-		52FE516D295DC426002ABF55 /* CJGLabelChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGLabelChain.h; sourceTree = "<group>"; };
-		52FE516E295DC426002ABF55 /* CJGVisualEffectViewChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGVisualEffectViewChain.h; sourceTree = "<group>"; };
-		52FE516F295DC426002ABF55 /* CJGControlChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGControlChain.h; sourceTree = "<group>"; };
-		52FE5170295DC426002ABF55 /* UIView+CJGChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CJGChain.m"; sourceTree = "<group>"; };
-		52FE5171295DC426002ABF55 /* CJGImageViewChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGImageViewChain.m; sourceTree = "<group>"; };
+		51BBF8FB54CEAE82ECA2409EE16C3560 /* CJGWebViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGWebViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGWebViewChain.m; sourceTree = "<group>"; };
+		52A40AD113724503CFD29B5A8F32856A /* CJGSwipeGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGSwipeGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGSwipeGestureChain.h; sourceTree = "<group>"; };
+		53C671E3137DEAEBCA36C92F1224D108 /* CJGBaseLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGBaseLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGBaseLayerChain.h; sourceTree = "<group>"; };
 		54316EA8CDD2B52F01255123B924A79E /* CJGChainProgramming */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJGChainProgramming; path = CJGChainProgramming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548BFAB26E7CA224F1756E19D3D9E36F /* CJGRotationGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGRotationGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGRotationGestureChain.m; sourceTree = "<group>"; };
+		549F9D2AA20A04ADFD30C1FE6E2437A0 /* CJGSwipeGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGSwipeGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGSwipeGestureChain.m; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		55DE4EDC750E4C2B2EE17A8DF623F6EF /* CJGTiledLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTiledLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGTiledLayerChain.h; sourceTree = "<group>"; };
+		581B74B2E0C43C116A9989E51AC2B171 /* CJGTapGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTapGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGTapGestureChain.m; sourceTree = "<group>"; };
+		58203ECC34DDBCAEC049AF83654CDE59 /* CJGGradientLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGGradientLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGGradientLayerChain.m; sourceTree = "<group>"; };
+		58425214CD95DCC7F1D71AE1BDD60A3C /* CJGButtonChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGButtonChain.m; path = CJGChainProgramming/Classes/UIView/CJGButtonChain.m; sourceTree = "<group>"; };
+		58C7C831C92942E6F8F5C124E2984161 /* UIScrollView+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UIScrollView+CJGChain.h"; sourceTree = "<group>"; };
+		5A08074AAA2281564B2DA38A46576F93 /* CJGTableViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTableViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGTableViewChain.m; sourceTree = "<group>"; };
+		5A89D30AF7F8E37F86D2F8111EFA65C2 /* CJGImageViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGImageViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGImageViewChain.h; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		61AFEA1158C322310AB6F16551C8351E /* Pods-CJGChainProgramming_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJGChainProgramming_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6275738FEF227A18D5AEDB7E9923EBD9 /* CJGPinchGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGPinchGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGPinchGestureChain.h; sourceTree = "<group>"; };
+		656586F8BE552AF221AF8FAFA0502246 /* CJGVisualEffectViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGVisualEffectViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGVisualEffectViewChain.m; sourceTree = "<group>"; };
 		668F0C34D0D32FE3D719D0389D93EAC1 /* Pods-CJGChainProgramming_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGChainProgramming_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A6480EAA672741EC2DD7ACF25451021 /* CJGScrollViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGScrollViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGScrollViewChain.h; sourceTree = "<group>"; };
+		6CE49EE0B07C667B8C8D69FE54807456 /* UILabel+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UILabel+CJGChain.h"; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6D4E9543534F35ADCA275E3A1CCFDD36 /* UIGestureRecognizer+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UIGestureRecognizer+CJGChain.m"; sourceTree = "<group>"; };
+		6DD7A5833A221C53792CA54223CEF634 /* UIControl+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UIControl+CJGChain.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7526729DF4CB44243F94E2CBBE7A1D48 /* UIControl+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UIControl+CJGChain.m"; sourceTree = "<group>"; };
+		764541D94548A18C3B564F9410FE9DE0 /* CJGBaseViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGBaseViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGBaseViewChain.m; sourceTree = "<group>"; };
+		767D4388707443DC3F157DA34EDA27C4 /* CJGSliderViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGSliderViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGSliderViewChain.h; sourceTree = "<group>"; };
 		76B4E33B1FF9D8F7E1D217E4E3E65B7D /* Pods-CJGChainProgramming_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGChainProgramming_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		793C73B8D34FA774D5C63EE21B5188DD /* CJGChainProgramming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGChainProgramming.release.xcconfig; sourceTree = "<group>"; };
-		7D61EF87A5E2996EEE15072E0938025A /* CJGChainProgramming.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGChainProgramming.modulemap; sourceTree = "<group>"; };
+		77917041EF77B0615D41F579F227293B /* CJGProgressViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGProgressViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGProgressViewChain.h; sourceTree = "<group>"; };
+		7D79D1975940B0275BD747BF425AA78F /* CJGTransFormLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTransFormLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGTransFormLayerChain.h; sourceTree = "<group>"; };
+		8189FA404CC9BE02795AE3A41478FA50 /* NSData+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSData+CJGChain.h"; sourceTree = "<group>"; };
+		82560C2699B193FEACE98263EBBECC5F /* CJGImageViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGImageViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGImageViewChain.m; sourceTree = "<group>"; };
 		835E556841FF793AA4098CE4C6227F92 /* Pods-CJGChainProgramming_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGChainProgramming_Tests-dummy.m"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		86AEFA8E637D72E76AB02366D80402EB /* CJGCollectionViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGCollectionViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGCollectionViewChain.m; sourceTree = "<group>"; };
+		87AAA718104573E2500AA2A961D29296 /* UITextField+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UITextField+CJGChain.h"; sourceTree = "<group>"; };
+		8869FE5F38D0ADB329C45D46C596C783 /* NSObject+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSObject+CJGChain.h"; sourceTree = "<group>"; };
+		8AB7CF3A1E37E3096CA558890B99D309 /* UIGestureRecognizer+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UIGestureRecognizer+CJGChain.h"; sourceTree = "<group>"; };
+		8AD516636D55DFB8EBF5D39CF5A20C8D /* NSDictionary+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSDictionary+CJGChain.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8B68221B111FF74E56E2A053F5A47A02 /* Pods-CJGChainProgramming_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGChainProgramming_Example-dummy.m"; sourceTree = "<group>"; };
+		8C31221C06DC8DFF36C91F3392C48082 /* CJGUIGestureChainHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGUIGestureChainHeader.h; path = CJGChainProgramming/Classes/UIGesture/CJGUIGestureChainHeader.h; sourceTree = "<group>"; };
 		8D1B35AC0C955F103C42BBD9ABC0F66F /* Pods-CJGChainProgramming_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGChainProgramming_Tests.modulemap"; sourceTree = "<group>"; };
-		8ECBC12B78EDE198F746E06594586F6F /* CJGChainProgramming-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJGChainProgramming-dummy.m"; sourceTree = "<group>"; };
+		8ED73327096DF87C62FD45EC53501081 /* UILabel+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UILabel+CJGChain.m"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A54F50C3EAA737E0378EA87EFE266265 /* CJGChainProgramming-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGChainProgramming-prefix.pch"; sourceTree = "<group>"; };
+		959A591D77B14673C0332E034596384F /* UITextField+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UITextField+CJGChain.m"; sourceTree = "<group>"; };
+		95AF09DB77D49D31425CFF7D64B58372 /* UIButton+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/UIButton+CJGChain.h"; sourceTree = "<group>"; };
+		961B587704E011C73A79CF02AF735C27 /* CJGActivityIndicatorViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGActivityIndicatorViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGActivityIndicatorViewChain.h; sourceTree = "<group>"; };
+		96D8B60D98B75B04EBFF07C3A8EEE2C4 /* NSData+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSData+CJGChain.m"; sourceTree = "<group>"; };
+		989A9223ECCF934A3C926D91AE6F3E24 /* CJGCALayerChainHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGCALayerChainHeader.h; path = CJGChainProgramming/Classes/CALayer/CJGCALayerChainHeader.h; sourceTree = "<group>"; };
+		991E9EF8B241B305F3E67C867E7AA5E2 /* NSAttributedString+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+CJGChain.h"; path = "CJGChainProgramming/Classes/Categories/NSAttributedString+CJGChain.h"; sourceTree = "<group>"; };
+		99877D5F4FBA4B1B94EDBED0079B2958 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9B0ACE5F14A7183909C15C845B3D6325 /* CJGProgressViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGProgressViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGProgressViewChain.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E696FB1C960CBD5799B81D2CBAFCAD0 /* CJGTextViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTextViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGTextViewChain.h; sourceTree = "<group>"; };
+		A30B48B07285AEBC261D2285BDEB0665 /* CJGTiledLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTiledLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGTiledLayerChain.m; sourceTree = "<group>"; };
+		A3AF20D715980082D9C7D3D083829C8F /* CJGBaseScrollViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGBaseScrollViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGBaseScrollViewChain.h; sourceTree = "<group>"; };
+		A43BF08F2685179959C8E08E95CCCBFD /* CJGTapGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTapGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGTapGestureChain.h; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		ABA364FF10F5BE2D948EAB69D66CC384 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A9008670ED2CDDA795A6E3771EF1EE5A /* CJGChainDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGChainDefine.h; path = CJGChainProgramming/Classes/CJGChainProgrammingBase/CJGChainDefine.h; sourceTree = "<group>"; };
+		AA4D361D7EADB04D1DAC591F4260456C /* NSString+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSString+CJGChain.m"; sourceTree = "<group>"; };
+		AA71637C4328567A54AB8AA2C905ED3E /* CJGShaperLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGShaperLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGShaperLayerChain.m; sourceTree = "<group>"; };
+		AAB7800E9537F66631565CEB1745CFA6 /* CJGChainProgramming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGChainProgramming.release.xcconfig; sourceTree = "<group>"; };
+		AAF7AB2887C9A02F7B3FBEA74766F2D0 /* CJGLabelChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGLabelChain.m; path = CJGChainProgramming/Classes/UIView/CJGLabelChain.m; sourceTree = "<group>"; };
+		AF369D9C867EF0C97F00E602C89E7148 /* CJGUIViewChainHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGUIViewChainHeader.h; path = CJGChainProgramming/Classes/UIView/CJGUIViewChainHeader.h; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		AF8A64364A07EA46AFD4D24A03C93403 /* CJGBaseControlChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGBaseControlChain.h; path = CJGChainProgramming/Classes/UIView/CJGBaseControlChain.h; sourceTree = "<group>"; };
 		B0CDC6345F6379C7322834952B0C1896 /* Pods-CJGChainProgramming_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGChainProgramming_Example.modulemap"; sourceTree = "<group>"; };
 		B185AB722E90670FE9F5B21BBC88E0FC /* Pods-CJGChainProgramming_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGChainProgramming_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1D462FBDDB1C93854DB261EA4C21E08 /* UIButton+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/UIButton+CJGChain.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B3BBE379F7B6BA727A2F9E2E7E894D72 /* CJGPanGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGPanGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGPanGestureChain.h; sourceTree = "<group>"; };
+		B597BCA64CE4A633B228EE3120C92975 /* CJGChainProgramming-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGChainProgramming-prefix.pch"; sourceTree = "<group>"; };
+		B9B409AEDD9BACC95058E2DC27B10A18 /* CJGChainProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGChainProgramming.h; path = CJGChainProgramming/Classes/CJGChainProgramming.h; sourceTree = "<group>"; };
 		BA81704EAEA85CF90C5BF94F8BEE3EBD /* Pods-CJGChainProgramming_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJGChainProgramming_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BFD421EFFCE88B7D67B5C09BC8520B33 /* CJGDatePickerViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGDatePickerViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGDatePickerViewChain.h; sourceTree = "<group>"; };
+		C1D6DB1A2255227CB5980560ADEB2A50 /* NSNumber+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+CJGChain.m"; path = "CJGChainProgramming/Classes/Categories/NSNumber+CJGChain.m"; sourceTree = "<group>"; };
+		C1EEA16E386B933DB627222E63E0C153 /* CJGReplicatorLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGReplicatorLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGReplicatorLayerChain.h; sourceTree = "<group>"; };
+		C3F69CD5EC1AD89B85AD9D2F30D78019 /* CJGTextLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTextLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGTextLayerChain.m; sourceTree = "<group>"; };
+		C4DED002298C45015B09504E904883E7 /* CJGGradientLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGGradientLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGGradientLayerChain.h; sourceTree = "<group>"; };
+		C57AE49B1DD31491B6B36E96FF098515 /* CALayer+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+CJGChain.h"; path = "CJGChainProgramming/Classes/CALayer/CALayer+CJGChain.h"; sourceTree = "<group>"; };
+		C5F5FC07606F20F353C32877B6C3303B /* CJGScrollLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGScrollLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGScrollLayerChain.m; sourceTree = "<group>"; };
+		C8F0AF4ECDF1D688C900B3ACBF3D9CF6 /* CJGChainBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGChainBase.m; path = CJGChainProgramming/Classes/CJGChainProgrammingBase/CJGChainBase.m; sourceTree = "<group>"; };
+		CA3D900CB68AC64C13844E1D05938FF9 /* CJGLabelChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGLabelChain.h; path = CJGChainProgramming/Classes/UIView/CJGLabelChain.h; sourceTree = "<group>"; };
+		D0B30B7B958C7BD20C7598C9387F6804 /* CJGReplicatorLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGReplicatorLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGReplicatorLayerChain.m; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D18A93617CF6B138C7AC8FA0D3760BF9 /* CJGGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGGestureChain.h; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D268C789E45B88ECAE7853587F4F8750 /* Pods-CJGChainProgramming_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGChainProgramming_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D48FD5A384DBE284C88D452E4969EC2F /* Pods-CJGChainProgramming_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGChainProgramming_Tests-Info.plist"; sourceTree = "<group>"; };
 		D5828B34696C43DDDB0EEB10CA4AFA21 /* Pods-CJGChainProgramming_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGChainProgramming_Tests"; path = Pods_CJGChainProgramming_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D700A1310B02DBA3904C4E2CC919E469 /* CJGControlChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGControlChain.m; path = CJGChainProgramming/Classes/UIView/CJGControlChain.m; sourceTree = "<group>"; };
+		D7D98709ECC602E9F7CB10F0D7AB2D4B /* CJGChainProgramming.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CJGChainProgramming.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB01B4C8A49ECDEC3F5EB5E5D6A77537 /* CJGActivityIndicatorViewChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGActivityIndicatorViewChain.m; path = CJGChainProgramming/Classes/UIView/CJGActivityIndicatorViewChain.m; sourceTree = "<group>"; };
+		DB1CE37C7A46AF400F659000863E67C7 /* CJGTextLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGTextLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGTextLayerChain.h; sourceTree = "<group>"; };
+		DB6E2EE2394B758CF36BBE9BD40AB766 /* CJGButtonChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGButtonChain.h; path = CJGChainProgramming/Classes/UIView/CJGButtonChain.h; sourceTree = "<group>"; };
+		DBC12DBB9715D8233ED36E468CD81C90 /* CJGWebViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGWebViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGWebViewChain.h; sourceTree = "<group>"; };
+		DBF74F080940EB8C26CD85543416ECD8 /* CJGPanGestureChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGPanGestureChain.m; path = CJGChainProgramming/Classes/UIGesture/CJGPanGestureChain.m; sourceTree = "<group>"; };
+		DDD9373DC76C4D306B74149F0FFE6A57 /* UIView+CJGChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CJGChain.m"; path = "CJGChainProgramming/Classes/UIView/UIView+CJGChain.m"; sourceTree = "<group>"; };
+		DE19B7B48A2557B7301FE8F2E01C7FAC /* CJGBaseViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGBaseViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGBaseViewChain.h; sourceTree = "<group>"; };
+		DE30694C7382F6E8FE0B3DD5E35AF052 /* CJGLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGLayerChain.h; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E602CFBA5A55DD3AF727D157D600816B /* CJGChainProgramming-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJGChainProgramming-dummy.m"; sourceTree = "<group>"; };
+		E681E212A9E031E970D23FB72053FE6B /* CJGChainProgramming.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGChainProgramming.modulemap; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EA1B3F62EA6A1565EA8127A555C09C07 /* CJGLongPressGestureChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGLongPressGestureChain.h; path = CJGChainProgramming/Classes/UIGesture/CJGLongPressGestureChain.h; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EB6269C19C0347FBFFD70F9C82C593BF /* CJGChainProgramming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGChainProgramming.debug.xcconfig; sourceTree = "<group>"; };
+		EB67EAD4D6749EA20BBD01A18F7FB503 /* CJGSwitchChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGSwitchChain.m; path = CJGChainProgramming/Classes/UIView/CJGSwitchChain.m; sourceTree = "<group>"; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		EC3F7AA17E26785AB474E76895ADCBFD /* CJGChainProgramming.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJGChainProgramming.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED014C798AA56C384A88C20594EB163F /* CJGControlChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGControlChain.h; path = CJGChainProgramming/Classes/UIView/CJGControlChain.h; sourceTree = "<group>"; };
+		ED074D383031E05EFF727D1F3529172C /* UIView+CJGChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CJGChain.h"; path = "CJGChainProgramming/Classes/UIView/UIView+CJGChain.h"; sourceTree = "<group>"; };
+		ED57E35BCE19D84471C1E0CAE923A829 /* CJGShaperLayerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGShaperLayerChain.h; path = CJGChainProgramming/Classes/CALayer/CJGShaperLayerChain.h; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EDC975AA5E882C0B32EC312F7F0226D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDCB778D33A3290D31155CC207AF39CA /* CJGEmiiterLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGEmiiterLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGEmiiterLayerChain.m; sourceTree = "<group>"; };
+		EF39048A67EE5ACDC53256EB2FD289F2 /* CJGViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGViewChain.h; sourceTree = "<group>"; };
+		F16D32E38CDCCAAB689898819857FC8F /* CJGSegmentedControlChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGSegmentedControlChain.m; path = CJGChainProgramming/Classes/UIView/CJGSegmentedControlChain.m; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F6F6D99FA08D93770E38860DA99C9E8E /* CJGChainProgramming-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGChainProgramming-umbrella.h"; sourceTree = "<group>"; };
+		F676B7C1CC6C2A08A6C58B5E7F94C282 /* CJGSwitchChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGSwitchChain.h; path = CJGChainProgramming/Classes/UIView/CJGSwitchChain.h; sourceTree = "<group>"; };
+		F8655DC03CA9C3645E6024897D5C5931 /* CJGCollectionViewChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJGCollectionViewChain.h; path = CJGChainProgramming/Classes/UIView/CJGCollectionViewChain.h; sourceTree = "<group>"; };
+		FE00572B24C91CD420FB2BD7228AD3F0 /* CJGTextFieldChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTextFieldChain.m; path = CJGChainProgramming/Classes/UIView/CJGTextFieldChain.m; sourceTree = "<group>"; };
+		FF84D036C678F5FC5332809AF4A5DEBC /* CJGTransFormLayerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJGTransFormLayerChain.m; path = CJGChainProgramming/Classes/CALayer/CJGTransFormLayerChain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,26 +394,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA6ADD377937CB7A8E69AE824015EBEB /* Frameworks */ = {
+		B5D5664389B39C9BF4AF8363640674BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28673807917DBEA0FDA3816248E5DB4 /* Foundation.framework in Frameworks */,
-				019FC23CD476961937183A231E2314F6 /* UIKit.framework in Frameworks */,
+				6A4B0AC8B5C555D57A3B60F2B04B602D /* Foundation.framework in Frameworks */,
+				837F5F8A24DF06AB7E097A275129437E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2A20B9B83B921A6C21DAD452FC55D9D /* Frameworks */ = {
+		FB862E972D03E50892A4DE62F95FB062 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8E2D003CB4BF3D9801FD243987F68D /* Foundation.framework in Frameworks */,
+				CEA757E25D60F121BF1ED9037D2E38CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC1267A44FBF99C90473D0810EFA2DC /* CJGChainProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				B9B409AEDD9BACC95058E2DC27B10A18 /* CJGChainProgramming.h */,
+				8FCD3DAD15181D1A60D6E5CC8F766274 /* CALayer */,
+				ADFA4EA64A291CD32B4815E6990FAC80 /* Categories */,
+				E83951E1E5E75EDBD2EB5C2E4FCECA5B /* CJGChainProgrammingBase */,
+				AD64DD52B7D627DC8450DD5896B43D5B /* Pod */,
+				EC649C6E7F52B6ECCB0B1B0FF7E64C4D /* Support Files */,
+				B7A8D29B7EB6D8243F3877A6BFBAA81E /* UIGesture */,
+				5C4353AAFB34923D5ACAAB21E49E9B80 /* UIView */,
+			);
+			name = CJGChainProgramming;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +460,7 @@
 				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
 				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -455,150 +488,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		52FE2BD1295D8AE40027845B /* Categories */ = {
+		57CD746F82DD95D23C2B6D7131DCFC40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52FE2BE9295D8AE40027845B /* NSAttributedString+CJGChain.h */,
-				52FE2BE5295D8AE40027845B /* NSAttributedString+CJGChain.m */,
-				52FE2BE6295D8AE40027845B /* NSData+CJGChain.h */,
-				52FE2BE1295D8AE40027845B /* NSData+CJGChain.m */,
-				52FE2BEA295D8AE40027845B /* NSDictionary+CJGChain.h */,
-				52FE2BE4295D8AE40027845B /* NSDictionary+CJGChain.m */,
-				52FE2BE8295D8AE40027845B /* NSNumber+CJGChain.h */,
-				52FE2BE2295D8AE40027845B /* NSNumber+CJGChain.m */,
-				52FE2BEB295D8AE40027845B /* NSObject+CJGChain.h */,
-				52FE2BE3295D8AE40027845B /* NSObject+CJGChain.m */,
-				52FE2BE7295D8AE40027845B /* NSString+CJGChain.h */,
-				52FE2BE0295D8AE40027845B /* NSString+CJGChain.m */,
-				52FE2BD6295D8AE40027845B /* UIButton+CJGChain.h */,
-				52FE2BDC295D8AE40027845B /* UIButton+CJGChain.m */,
-				52FE2BD5295D8AE40027845B /* UIControl+CJGChain.h */,
-				52FE2BDD295D8AE40027845B /* UIControl+CJGChain.m */,
-				52FE2BD9295D8AE40027845B /* UIGestureRecognizer+CJGChain.h */,
-				52FE2BD3295D8AE40027845B /* UIGestureRecognizer+CJGChain.m */,
-				52FE2BD8295D8AE40027845B /* UILabel+CJGChain.h */,
-				52FE2BDE295D8AE40027845B /* UILabel+CJGChain.m */,
-				52FE2BDA295D8AE40027845B /* UIScrollView+CJGChain.h */,
-				52FE2BD4295D8AE40027845B /* UIScrollView+CJGChain.m */,
-				52FE2BDB295D8AE40027845B /* UITextField+CJGChain.h */,
-				52FE2BD7295D8AE40027845B /* UITextField+CJGChain.m */,
+				0CC1267A44FBF99C90473D0810EFA2DC /* CJGChainProgramming */,
 			);
-			name = Categories;
-			path = CJGChainProgramming/Classes/Categories;
-			sourceTree = "<group>";
-		};
-		52FE50F5295DC3C4002ABF55 /* CALayer */ = {
-			isa = PBXGroup;
-			children = (
-				52FE50F8295DC3C4002ABF55 /* CALayer+CJGChain.h */,
-				52FE5104295DC3C4002ABF55 /* CALayer+CJGChain.m */,
-				52FE5109295DC3C4002ABF55 /* CJGCALayerChainHeader.h */,
-				52FE5107295DC3C4002ABF55 /* CJGEmiiterLayerChain.h */,
-				52FE50FE295DC3C4002ABF55 /* CJGEmiiterLayerChain.m */,
-				52FE50F7295DC3C4002ABF55 /* CJGGradientLayerChain.h */,
-				52FE5105295DC3C4002ABF55 /* CJGGradientLayerChain.m */,
-				52FE50FF295DC3C4002ABF55 /* CJGLayerChain.h */,
-				52FE510A295DC3C4002ABF55 /* CJGLayerChain.m */,
-				52FE50FD295DC3C4002ABF55 /* CJGReplicatorLayerChain.h */,
-				52FE5108295DC3C4002ABF55 /* CJGReplicatorLayerChain.m */,
-				52FE50FC295DC3C4002ABF55 /* CJGScrollLayerChain.h */,
-				52FE5100295DC3C4002ABF55 /* CJGScrollLayerChain.m */,
-				52FE50F9295DC3C4002ABF55 /* CJGShaperLayerChain.h */,
-				52FE5103295DC3C4002ABF55 /* CJGShaperLayerChain.m */,
-				52FE50FA295DC3C4002ABF55 /* CJGTextLayerChain.h */,
-				52FE5102295DC3C4002ABF55 /* CJGTextLayerChain.m */,
-				52FE5106295DC3C4002ABF55 /* CJGTiledLayerChain.h */,
-				52FE50F6295DC3C4002ABF55 /* CJGTiledLayerChain.m */,
-				52FE5101295DC3C4002ABF55 /* CJGTransFormLayerChain.h */,
-				52FE50FB295DC3C4002ABF55 /* CJGTransFormLayerChain.m */,
-			);
-			name = CALayer;
-			path = CJGChainProgramming/Classes/CALayer;
-			sourceTree = "<group>";
-		};
-		52FE5120295DC3F0002ABF55 /* CJGChainProgrammingBase */ = {
-			isa = PBXGroup;
-			children = (
-				52FE5122295DC3F0002ABF55 /* CJGChainBase.h */,
-				52FE5121295DC3F0002ABF55 /* CJGChainBase.m */,
-				52FE5123295DC3F0002ABF55 /* CJGChainDefine.h */,
-			);
-			name = CJGChainProgrammingBase;
-			path = CJGChainProgramming/Classes/CJGChainProgrammingBase;
-			sourceTree = "<group>";
-		};
-		52FE5127295DC40B002ABF55 /* UIGesture */ = {
-			isa = PBXGroup;
-			children = (
-				52FE512A295DC40B002ABF55 /* CJGGestureChain.h */,
-				52FE5132295DC40B002ABF55 /* CJGGestureChain.m */,
-				52FE512D295DC40B002ABF55 /* CJGLongPressGestureChain.h */,
-				52FE5133295DC40B002ABF55 /* CJGLongPressGestureChain.m */,
-				52FE5131295DC40B002ABF55 /* CJGPanGestureChain.h */,
-				52FE5128295DC40B002ABF55 /* CJGPanGestureChain.m */,
-				52FE512E295DC40B002ABF55 /* CJGPinchGestureChain.h */,
-				52FE5136295DC40B002ABF55 /* CJGPinchGestureChain.m */,
-				52FE5135295DC40B002ABF55 /* CJGRotationGestureChain.h */,
-				52FE512F295DC40B002ABF55 /* CJGRotationGestureChain.m */,
-				52FE5134295DC40B002ABF55 /* CJGSwipeGestureChain.h */,
-				52FE512C295DC40B002ABF55 /* CJGSwipeGestureChain.m */,
-				52FE5130295DC40B002ABF55 /* CJGTapGestureChain.h */,
-				52FE5129295DC40B002ABF55 /* CJGTapGestureChain.m */,
-				52FE512B295DC40B002ABF55 /* CJGUIGestureChainHeader.h */,
-			);
-			name = UIGesture;
-			path = CJGChainProgramming/Classes/UIGesture;
-			sourceTree = "<group>";
-		};
-		52FE5146295DC426002ABF55 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				52FE5155295DC426002ABF55 /* UIView+CJGChain.h */,
-				52FE5170295DC426002ABF55 /* UIView+CJGChain.m */,
-				52FE5160295DC426002ABF55 /* CJGActivityIndicatorViewChain.h */,
-				52FE514B295DC426002ABF55 /* CJGActivityIndicatorViewChain.m */,
-				52FE5159295DC426002ABF55 /* CJGButtonChain.h */,
-				52FE516C295DC426002ABF55 /* CJGButtonChain.m */,
-				52FE5148295DC426002ABF55 /* CJGCollectionViewChain.h */,
-				52FE5163295DC426002ABF55 /* CJGCollectionViewChain.m */,
-				52FE516F295DC426002ABF55 /* CJGControlChain.h */,
-				52FE5156295DC426002ABF55 /* CJGControlChain.m */,
-				52FE515E295DC426002ABF55 /* CJGDatePickerViewChain.h */,
-				52FE514D295DC426002ABF55 /* CJGDatePickerViewChain.m */,
-				52FE515B295DC426002ABF55 /* CJGImageViewChain.h */,
-				52FE5171295DC426002ABF55 /* CJGImageViewChain.m */,
-				52FE516D295DC426002ABF55 /* CJGLabelChain.h */,
-				52FE5157295DC426002ABF55 /* CJGLabelChain.m */,
-				52FE514E295DC426002ABF55 /* CJGPickerViewChain.h */,
-				52FE515D295DC426002ABF55 /* CJGPickerViewChain.m */,
-				52FE5154295DC426002ABF55 /* CJGProgressViewChain.h */,
-				52FE5165295DC426002ABF55 /* CJGProgressViewChain.m */,
-				52FE5149295DC426002ABF55 /* CJGScrollViewChain.h */,
-				52FE5162295DC426002ABF55 /* CJGScrollViewChain.m */,
-				52FE5169295DC426002ABF55 /* CJGSegmentedControlChain.h */,
-				52FE5150295DC426002ABF55 /* CJGSegmentedControlChain.m */,
-				52FE5153295DC426002ABF55 /* CJGSliderViewChain.h */,
-				52FE5166295DC426002ABF55 /* CJGSliderViewChain.m */,
-				52FE5168295DC426002ABF55 /* CJGSwitchChain.h */,
-				52FE5151295DC426002ABF55 /* CJGSwitchChain.m */,
-				52FE5164295DC426002ABF55 /* CJGTableViewCellChain.h */,
-				52FE5147295DC426002ABF55 /* CJGTableViewCellChain.m */,
-				52FE514C295DC426002ABF55 /* CJGTableViewChain.h */,
-				52FE515F295DC426002ABF55 /* CJGTableViewChain.m */,
-				52FE514F295DC426002ABF55 /* CJGTextFieldChain.h */,
-				52FE516A295DC426002ABF55 /* CJGTextFieldChain.m */,
-				52FE5161295DC426002ABF55 /* CJGTextViewChain.h */,
-				52FE514A295DC426002ABF55 /* CJGTextViewChain.m */,
-				52FE515C295DC426002ABF55 /* CJGUIViewChainHeader.h */,
-				52FE5167295DC426002ABF55 /* CJGViewChain.h */,
-				52FE5152295DC426002ABF55 /* CJGViewChain.m */,
-				52FE516E295DC426002ABF55 /* CJGVisualEffectViewChain.h */,
-				52FE5158295DC426002ABF55 /* CJGVisualEffectViewChain.m */,
-				52FE516B295DC426002ABF55 /* CJGWebViewChain.h */,
-				52FE515A295DC426002ABF55 /* CJGWebViewChain.m */,
-			);
-			name = UIView;
-			path = CJGChainProgramming/Classes/UIView;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -610,14 +505,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5F17BF37E59BF2FB76BAFF09D71DC6B5 /* Pod */ = {
+		5C4353AAFB34923D5ACAAB21E49E9B80 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				EC3F7AA17E26785AB474E76895ADCBFD /* CJGChainProgramming.podspec */,
-				ABA364FF10F5BE2D948EAB69D66CC384 /* LICENSE */,
-				2CC3312CA3239EBD50DCC2E402F1C646 /* README.md */,
+				961B587704E011C73A79CF02AF735C27 /* CJGActivityIndicatorViewChain.h */,
+				DB01B4C8A49ECDEC3F5EB5E5D6A77537 /* CJGActivityIndicatorViewChain.m */,
+				AF8A64364A07EA46AFD4D24A03C93403 /* CJGBaseControlChain.h */,
+				056D3AC9ABDD2C8C1EEF1D414D5F1716 /* CJGBaseControlChain.m */,
+				A3AF20D715980082D9C7D3D083829C8F /* CJGBaseScrollViewChain.h */,
+				094386CDD4B44ACD17E4313C74D5CE34 /* CJGBaseScrollViewChain.m */,
+				DE19B7B48A2557B7301FE8F2E01C7FAC /* CJGBaseViewChain.h */,
+				764541D94548A18C3B564F9410FE9DE0 /* CJGBaseViewChain.m */,
+				DB6E2EE2394B758CF36BBE9BD40AB766 /* CJGButtonChain.h */,
+				58425214CD95DCC7F1D71AE1BDD60A3C /* CJGButtonChain.m */,
+				F8655DC03CA9C3645E6024897D5C5931 /* CJGCollectionViewChain.h */,
+				86AEFA8E637D72E76AB02366D80402EB /* CJGCollectionViewChain.m */,
+				ED014C798AA56C384A88C20594EB163F /* CJGControlChain.h */,
+				D700A1310B02DBA3904C4E2CC919E469 /* CJGControlChain.m */,
+				BFD421EFFCE88B7D67B5C09BC8520B33 /* CJGDatePickerViewChain.h */,
+				44E7277909023011B61CA69D448A25F7 /* CJGDatePickerViewChain.m */,
+				5A89D30AF7F8E37F86D2F8111EFA65C2 /* CJGImageViewChain.h */,
+				82560C2699B193FEACE98263EBBECC5F /* CJGImageViewChain.m */,
+				CA3D900CB68AC64C13844E1D05938FF9 /* CJGLabelChain.h */,
+				AAF7AB2887C9A02F7B3FBEA74766F2D0 /* CJGLabelChain.m */,
+				4FDF7DD3F3D380B6D793D03DA923C85E /* CJGPickerViewChain.h */,
+				35E46BDE1AA34F02F4E0C9B71FDDCC74 /* CJGPickerViewChain.m */,
+				77917041EF77B0615D41F579F227293B /* CJGProgressViewChain.h */,
+				9B0ACE5F14A7183909C15C845B3D6325 /* CJGProgressViewChain.m */,
+				6A6480EAA672741EC2DD7ACF25451021 /* CJGScrollViewChain.h */,
+				42F00BB7D415EA907CB417BA45324EB5 /* CJGScrollViewChain.m */,
+				087D38B26FCE3C1E659FAA47F58C997B /* CJGSegmentedControlChain.h */,
+				F16D32E38CDCCAAB689898819857FC8F /* CJGSegmentedControlChain.m */,
+				767D4388707443DC3F157DA34EDA27C4 /* CJGSliderViewChain.h */,
+				23E43BA2A03EABCF2B78BDF1394DDDEF /* CJGSliderViewChain.m */,
+				F676B7C1CC6C2A08A6C58B5E7F94C282 /* CJGSwitchChain.h */,
+				EB67EAD4D6749EA20BBD01A18F7FB503 /* CJGSwitchChain.m */,
+				3C39548FC7766BB6F7F2CF71FFCDCA08 /* CJGTableViewCellChain.h */,
+				1ED8F81607777E3301AA025FF0CAECD0 /* CJGTableViewCellChain.m */,
+				17F82C4D084BFE9D3D3921109E78ACF7 /* CJGTableViewChain.h */,
+				5A08074AAA2281564B2DA38A46576F93 /* CJGTableViewChain.m */,
+				4EC7ED5184A72C47319260B6056546A3 /* CJGTextFieldChain.h */,
+				FE00572B24C91CD420FB2BD7228AD3F0 /* CJGTextFieldChain.m */,
+				9E696FB1C960CBD5799B81D2CBAFCAD0 /* CJGTextViewChain.h */,
+				36E952FC4CD7A257235CA4B3BBB94079 /* CJGTextViewChain.m */,
+				AF369D9C867EF0C97F00E602C89E7148 /* CJGUIViewChainHeader.h */,
+				EF39048A67EE5ACDC53256EB2FD289F2 /* CJGViewChain.h */,
+				17E2C67B51D9787A9C662227CC7F5E7B /* CJGViewChain.m */,
+				09FDD57BC813388441ADBAED3CAAD307 /* CJGVisualEffectViewChain.h */,
+				656586F8BE552AF221AF8FAFA0502246 /* CJGVisualEffectViewChain.m */,
+				DBC12DBB9715D8233ED36E468CD81C90 /* CJGWebViewChain.h */,
+				51BBF8FB54CEAE82ECA2409EE16C3560 /* CJGWebViewChain.m */,
+				ED074D383031E05EFF727D1F3529172C /* UIView+CJGChain.h */,
+				DDD9373DC76C4D306B74149F0FFE6A57 /* UIView+CJGChain.m */,
 			);
-			name = Pod;
+			name = UIView;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -626,6 +567,99 @@
 				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FCD3DAD15181D1A60D6E5CC8F766274 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				C57AE49B1DD31491B6B36E96FF098515 /* CALayer+CJGChain.h */,
+				4F64D0FBEB168274E9087E9E25BD6C33 /* CALayer+CJGChain.m */,
+				53C671E3137DEAEBCA36C92F1224D108 /* CJGBaseLayerChain.h */,
+				091CC267D0E75B9B35D408E98FC337C0 /* CJGBaseLayerChain.m */,
+				989A9223ECCF934A3C926D91AE6F3E24 /* CJGCALayerChainHeader.h */,
+				1CD0F481659F768515ACC3B04A437F2F /* CJGEmiiterLayerChain.h */,
+				EDCB778D33A3290D31155CC207AF39CA /* CJGEmiiterLayerChain.m */,
+				C4DED002298C45015B09504E904883E7 /* CJGGradientLayerChain.h */,
+				58203ECC34DDBCAEC049AF83654CDE59 /* CJGGradientLayerChain.m */,
+				DE30694C7382F6E8FE0B3DD5E35AF052 /* CJGLayerChain.h */,
+				3D8DFC863E1F50ACFBDD3B47B17E1A92 /* CJGLayerChain.m */,
+				C1EEA16E386B933DB627222E63E0C153 /* CJGReplicatorLayerChain.h */,
+				D0B30B7B958C7BD20C7598C9387F6804 /* CJGReplicatorLayerChain.m */,
+				2D16F6BBB5426BD51A2093E9463112ED /* CJGScrollLayerChain.h */,
+				C5F5FC07606F20F353C32877B6C3303B /* CJGScrollLayerChain.m */,
+				ED57E35BCE19D84471C1E0CAE923A829 /* CJGShaperLayerChain.h */,
+				AA71637C4328567A54AB8AA2C905ED3E /* CJGShaperLayerChain.m */,
+				DB1CE37C7A46AF400F659000863E67C7 /* CJGTextLayerChain.h */,
+				C3F69CD5EC1AD89B85AD9D2F30D78019 /* CJGTextLayerChain.m */,
+				55DE4EDC750E4C2B2EE17A8DF623F6EF /* CJGTiledLayerChain.h */,
+				A30B48B07285AEBC261D2285BDEB0665 /* CJGTiledLayerChain.m */,
+				7D79D1975940B0275BD747BF425AA78F /* CJGTransFormLayerChain.h */,
+				FF84D036C678F5FC5332809AF4A5DEBC /* CJGTransFormLayerChain.m */,
+			);
+			name = CALayer;
+			sourceTree = "<group>";
+		};
+		AD64DD52B7D627DC8450DD5896B43D5B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7D98709ECC602E9F7CB10F0D7AB2D4B /* CJGChainProgramming.podspec */,
+				99877D5F4FBA4B1B94EDBED0079B2958 /* LICENSE */,
+				EDC975AA5E882C0B32EC312F7F0226D2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ADFA4EA64A291CD32B4815E6990FAC80 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				991E9EF8B241B305F3E67C867E7AA5E2 /* NSAttributedString+CJGChain.h */,
+				0FB4A96D5A7431DCB9B8C79C07795AC4 /* NSAttributedString+CJGChain.m */,
+				8189FA404CC9BE02795AE3A41478FA50 /* NSData+CJGChain.h */,
+				96D8B60D98B75B04EBFF07C3A8EEE2C4 /* NSData+CJGChain.m */,
+				8AD516636D55DFB8EBF5D39CF5A20C8D /* NSDictionary+CJGChain.h */,
+				2184A0B13B96D4D8C1A31C4EE87EF553 /* NSDictionary+CJGChain.m */,
+				3AEC70BA65D9E1E3D40E6A07C25CA5AB /* NSNumber+CJGChain.h */,
+				C1D6DB1A2255227CB5980560ADEB2A50 /* NSNumber+CJGChain.m */,
+				8869FE5F38D0ADB329C45D46C596C783 /* NSObject+CJGChain.h */,
+				443EB059990640B2C03539DF38192683 /* NSObject+CJGChain.m */,
+				4A92BDA4B23D13465778A558B3273DEC /* NSString+CJGChain.h */,
+				AA4D361D7EADB04D1DAC591F4260456C /* NSString+CJGChain.m */,
+				95AF09DB77D49D31425CFF7D64B58372 /* UIButton+CJGChain.h */,
+				B1D462FBDDB1C93854DB261EA4C21E08 /* UIButton+CJGChain.m */,
+				6DD7A5833A221C53792CA54223CEF634 /* UIControl+CJGChain.h */,
+				7526729DF4CB44243F94E2CBBE7A1D48 /* UIControl+CJGChain.m */,
+				8AB7CF3A1E37E3096CA558890B99D309 /* UIGestureRecognizer+CJGChain.h */,
+				6D4E9543534F35ADCA275E3A1CCFDD36 /* UIGestureRecognizer+CJGChain.m */,
+				6CE49EE0B07C667B8C8D69FE54807456 /* UILabel+CJGChain.h */,
+				8ED73327096DF87C62FD45EC53501081 /* UILabel+CJGChain.m */,
+				58C7C831C92942E6F8F5C124E2984161 /* UIScrollView+CJGChain.h */,
+				0956F5FEB60A42A75B1507F5DF435205 /* UIScrollView+CJGChain.m */,
+				87AAA718104573E2500AA2A961D29296 /* UITextField+CJGChain.h */,
+				959A591D77B14673C0332E034596384F /* UITextField+CJGChain.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B7A8D29B7EB6D8243F3877A6BFBAA81E /* UIGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D18A93617CF6B138C7AC8FA0D3760BF9 /* CJGGestureChain.h */,
+				09510A044FAFE16B4A4ACB249F1CBA5D /* CJGGestureChain.m */,
+				EA1B3F62EA6A1565EA8127A555C09C07 /* CJGLongPressGestureChain.h */,
+				16421BE6C89AA9EBB7ECDC8693425D52 /* CJGLongPressGestureChain.m */,
+				B3BBE379F7B6BA727A2F9E2E7E894D72 /* CJGPanGestureChain.h */,
+				DBF74F080940EB8C26CD85543416ECD8 /* CJGPanGestureChain.m */,
+				6275738FEF227A18D5AEDB7E9923EBD9 /* CJGPinchGestureChain.h */,
+				06C964FDA77568478DBCD4E079B9ED51 /* CJGPinchGestureChain.m */,
+				06FF4FAA9F9869DEAEE8073E5CE441BA /* CJGRotationGestureChain.h */,
+				548BFAB26E7CA224F1756E19D3D9E36F /* CJGRotationGestureChain.m */,
+				52A40AD113724503CFD29B5A8F32856A /* CJGSwipeGestureChain.h */,
+				549F9D2AA20A04ADFD30C1FE6E2437A0 /* CJGSwipeGestureChain.m */,
+				A43BF08F2685179959C8E08E95CCCBFD /* CJGTapGestureChain.h */,
+				581B74B2E0C43C116A9989E51AC2B171 /* CJGTapGestureChain.m */,
+				8C31221C06DC8DFF36C91F3392C48082 /* CJGUIGestureChainHeader.h */,
+			);
+			name = UIGesture;
 			sourceTree = "<group>";
 		};
 		C207330003EF7198A4DC8DE211FD4CEE /* Products */ = {
@@ -658,7 +692,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FB7A289A2FB36CE12B9ABAC9AC4B70B9 /* Development Pods */,
+				57CD746F82DD95D23C2B6D7131DCFC40 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				C207330003EF7198A4DC8DE211FD4CEE /* Products */,
@@ -692,40 +726,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E7FE7373032B1595878023486A8723D7 /* CJGChainProgramming */ = {
+		E83951E1E5E75EDBD2EB5C2E4FCECA5B /* CJGChainProgrammingBase */ = {
 			isa = PBXGroup;
 			children = (
-				2777F0F103282B5D301CE712798E5E97 /* CJGChainProgramming.h */,
-				52FE5146295DC426002ABF55 /* UIView */,
-				52FE5127295DC40B002ABF55 /* UIGesture */,
-				52FE5120295DC3F0002ABF55 /* CJGChainProgrammingBase */,
-				52FE50F5295DC3C4002ABF55 /* CALayer */,
-				52FE2BD1295D8AE40027845B /* Categories */,
-				5F17BF37E59BF2FB76BAFF09D71DC6B5 /* Pod */,
-				FF46EE088DD885409F739956222A472A /* Support Files */,
+				47E431B79183FFEA217973DCA9EDC98C /* CJGChainBase.h */,
+				C8F0AF4ECDF1D688C900B3ACBF3D9CF6 /* CJGChainBase.m */,
+				A9008670ED2CDDA795A6E3771EF1EE5A /* CJGChainDefine.h */,
 			);
-			name = CJGChainProgramming;
-			path = ../..;
+			name = CJGChainProgrammingBase;
 			sourceTree = "<group>";
 		};
-		FB7A289A2FB36CE12B9ABAC9AC4B70B9 /* Development Pods */ = {
+		EC649C6E7F52B6ECCB0B1B0FF7E64C4D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7FE7373032B1595878023486A8723D7 /* CJGChainProgramming */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FF46EE088DD885409F739956222A472A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D61EF87A5E2996EEE15072E0938025A /* CJGChainProgramming.modulemap */,
-				8ECBC12B78EDE198F746E06594586F6F /* CJGChainProgramming-dummy.m */,
-				3D93E32AD042CB1D2CAD0DBCA4B96522 /* CJGChainProgramming-Info.plist */,
-				A54F50C3EAA737E0378EA87EFE266265 /* CJGChainProgramming-prefix.pch */,
-				F6F6D99FA08D93770E38860DA99C9E8E /* CJGChainProgramming-umbrella.h */,
-				EB6269C19C0347FBFFD70F9C82C593BF /* CJGChainProgramming.debug.xcconfig */,
-				793C73B8D34FA774D5C63EE21B5188DD /* CJGChainProgramming.release.xcconfig */,
+				E681E212A9E031E970D23FB72053FE6B /* CJGChainProgramming.modulemap */,
+				E602CFBA5A55DD3AF727D157D600816B /* CJGChainProgramming-dummy.m */,
+				1324F1D0F538667A56687ED294302ED7 /* CJGChainProgramming-Info.plist */,
+				B597BCA64CE4A633B228EE3120C92975 /* CJGChainProgramming-prefix.pch */,
+				4753EEB7B4E7ED2CA893FFA6B296FFD9 /* CJGChainProgramming-umbrella.h */,
+				01E9E4DAEBABFF43126ABAD3D89CED3B /* CJGChainProgramming.debug.xcconfig */,
+				AAB7800E9537F66631565CEB1745CFA6 /* CJGChainProgramming.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CJGChainProgramming";
@@ -734,90 +754,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16A90DDEECA70E9CD98D247D86C7FB61 /* Headers */ = {
+		23BAA1905E3719B4BE6C048509BED671 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613CBE995C5E57BA1F9BD5511ABDFBCF /* MASCompositeConstraint.h in Headers */,
-				4A11335512C6EB98CFF0DA257FBC1769 /* MASConstraint.h in Headers */,
-				7258DD815A57F68B4B4E0D43DED4699F /* MASConstraint+Private.h in Headers */,
-				6711F8A26D9B46154A729500A90B60E5 /* MASConstraintMaker.h in Headers */,
-				7055290B8556EF648DDDF52DF22684FB /* MASLayoutConstraint.h in Headers */,
-				E69C3025312F0179F53BB8239A026048 /* Masonry.h in Headers */,
-				E14FCAF826B7AC9994CE4A58B1037DC8 /* Masonry-umbrella.h in Headers */,
-				A1F1DDF82E278B9B7C72F8B96D3A275C /* MASUtilities.h in Headers */,
-				BC6A5BD45C9E1FBFC47AC45417BAC18D /* MASViewAttribute.h in Headers */,
-				8FCD3F442F14853068EF330401465FB6 /* MASViewConstraint.h in Headers */,
-				A0F3474CB6E7DB4ABEB3E26DB2E45215 /* NSArray+MASAdditions.h in Headers */,
-				84D78111FC4A2B0D1D12465DBAEC55A0 /* NSArray+MASShorthandAdditions.h in Headers */,
-				C8BBC4E50B0DED3531210014F58031DB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				A41BEF4DB309677424BB8C054FC6E146 /* View+MASAdditions.h in Headers */,
-				E2CC4A78F07C7A7750E5721E5C29924A /* View+MASShorthandAdditions.h in Headers */,
-				B08DDFDD25B1E2ABB2992A2FC8817057 /* ViewController+MASAdditions.h in Headers */,
+				1A5E7A95DEDE2FB36F69843FF8EE4C98 /* CALayer+CJGChain.h in Headers */,
+				46750486ECE65F04052A65E203F74627 /* CJGActivityIndicatorViewChain.h in Headers */,
+				5D68170DF59D5E4A73CC3D69D7D9C7C5 /* CJGBaseControlChain.h in Headers */,
+				0724041F5DAE02FA45F9E371A9ED3C68 /* CJGBaseLayerChain.h in Headers */,
+				E732DD1D327E127774F7CACBB7BE2319 /* CJGBaseScrollViewChain.h in Headers */,
+				137BF4CC5CD190C5B3BB14CEA83F57BF /* CJGBaseViewChain.h in Headers */,
+				9C09B91812AE9007963AFC3E0C4B04F6 /* CJGButtonChain.h in Headers */,
+				2CB5DDAD8D7007BEF4565E990ED31C35 /* CJGCALayerChainHeader.h in Headers */,
+				4808E806D0978C0171D1CD659D3E27D7 /* CJGChainBase.h in Headers */,
+				9DCFEE9ACF4F6FE3D27BE3A840F19C18 /* CJGChainDefine.h in Headers */,
+				50051BAE0D9CA477E092FEEBC9260341 /* CJGChainProgramming.h in Headers */,
+				CA6D3699339BCEBE41C5054A130D5865 /* CJGChainProgramming-umbrella.h in Headers */,
+				2BC2FF73ED506ED2BB159F0C36BDFD80 /* CJGCollectionViewChain.h in Headers */,
+				F876AF6C77DA17F3DE4E468C159A8977 /* CJGControlChain.h in Headers */,
+				D2B23D5AC8334E156FADDC8145187452 /* CJGDatePickerViewChain.h in Headers */,
+				5B96E6141E308C526173B8064AEA46C1 /* CJGEmiiterLayerChain.h in Headers */,
+				81757E8CE971710A452A1BC394FDC695 /* CJGGestureChain.h in Headers */,
+				18ABC196EF621F53A564BE9103D90FD5 /* CJGGradientLayerChain.h in Headers */,
+				638C69092C2763D477981B05C83E7CE9 /* CJGImageViewChain.h in Headers */,
+				F7D89E3D115349FD73AF1A90DEBB09B9 /* CJGLabelChain.h in Headers */,
+				9E31C9D6EC42EAD27E755EF681C029A4 /* CJGLayerChain.h in Headers */,
+				343B893BEA4084824FC1AC7B43F4621C /* CJGLongPressGestureChain.h in Headers */,
+				B694EDECC0021D5380C711303320A210 /* CJGPanGestureChain.h in Headers */,
+				C3C7152A7728328B9199B70887DB27F4 /* CJGPickerViewChain.h in Headers */,
+				8FB987F4BB99F2E157EFD4E844AD5C75 /* CJGPinchGestureChain.h in Headers */,
+				800CA84A9947EC84C9975120B35E6CA1 /* CJGProgressViewChain.h in Headers */,
+				A64EA50249A7EAB10B804411A0E1035B /* CJGReplicatorLayerChain.h in Headers */,
+				2B501786BD0D6241D9A371C2CC7E537A /* CJGRotationGestureChain.h in Headers */,
+				1265E0FFE49F68D2DBE286848CFF6700 /* CJGScrollLayerChain.h in Headers */,
+				8597D223D08A2BB45D27E73394AC1174 /* CJGScrollViewChain.h in Headers */,
+				B8F956785F6D56EE46425A49C4C0C6E4 /* CJGSegmentedControlChain.h in Headers */,
+				AD23E9298CD48F1F76067A6A55EE0E9B /* CJGShaperLayerChain.h in Headers */,
+				304A19B9A037EF7170DB4C538FB4904A /* CJGSliderViewChain.h in Headers */,
+				DDBE10164EDD541C311CC4DEEC9359AE /* CJGSwipeGestureChain.h in Headers */,
+				A300265A2D73F6BD9055BD17EE1F3A02 /* CJGSwitchChain.h in Headers */,
+				36203C44D073D36C8DE27440F77AFA74 /* CJGTableViewCellChain.h in Headers */,
+				9C2E212552B50B4A69EBAFB23CF3D58A /* CJGTableViewChain.h in Headers */,
+				DA8E9FF7318A4B5FA43C9330DABC90B2 /* CJGTapGestureChain.h in Headers */,
+				31AED6D0981795E911DA543D2E0662AA /* CJGTextFieldChain.h in Headers */,
+				8644389F8576BACF092D63069F116DF1 /* CJGTextLayerChain.h in Headers */,
+				F31E452059B8B011357A5E4C3B9E4B56 /* CJGTextViewChain.h in Headers */,
+				E15DA0A78BAF982419311AFEC50B3E20 /* CJGTiledLayerChain.h in Headers */,
+				B937A05C55B4149F4E0D47C3F1092A67 /* CJGTransFormLayerChain.h in Headers */,
+				D0684D3D43BCB33380F19C9E11830DD0 /* CJGUIGestureChainHeader.h in Headers */,
+				F8FC775C68142583E35695AD522C3127 /* CJGUIViewChainHeader.h in Headers */,
+				E4211409287A231DDCF70E8733C3D04A /* CJGViewChain.h in Headers */,
+				93166AA309FE2D029F80B0FEC22DCF32 /* CJGVisualEffectViewChain.h in Headers */,
+				999D4C3E706154BE3CF9ABDE409872DB /* CJGWebViewChain.h in Headers */,
+				9D71498105BF68CB08308FD60F6A83C9 /* NSAttributedString+CJGChain.h in Headers */,
+				2E4218F02F746DB6F565D20892D6AE92 /* NSData+CJGChain.h in Headers */,
+				C8A525969040568DF32B4C3A1AF06117 /* NSDictionary+CJGChain.h in Headers */,
+				A99E9CEA056405C3F0D0C2E0F5E25D8E /* NSNumber+CJGChain.h in Headers */,
+				DFE783E9049B9295E721A8B287278083 /* NSObject+CJGChain.h in Headers */,
+				C5DEAC65698188473E928D034E82F5C6 /* NSString+CJGChain.h in Headers */,
+				74A9A8E058CBFA80A5ECE2475D74B1BE /* UIButton+CJGChain.h in Headers */,
+				D9E98A9CB63EFB1D4656B3D2B0BEB6A4 /* UIControl+CJGChain.h in Headers */,
+				4D7F123FD1BB9992A0D42E9F7C27612F /* UIGestureRecognizer+CJGChain.h in Headers */,
+				01FE8CD656CCF6F6EACC206CA2A55E50 /* UILabel+CJGChain.h in Headers */,
+				C63BC2F98BFB4C79CA5841BAF9D59F12 /* UIScrollView+CJGChain.h in Headers */,
+				09EC383C153BF878200C989DFA5225BD /* UITextField+CJGChain.h in Headers */,
+				E462B25ABD1F97958509E24BF2AAE6CB /* UIView+CJGChain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90757723ED9E521012C160CDE60F0587 /* Headers */ = {
+		328AA8DB6B7DCAA22A6ABBC7D10B12EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FE2BFE295D8AE40027845B /* NSData+CJGChain.h in Headers */,
-				52FE517A295DC426002ABF55 /* CJGTextFieldChain.h in Headers */,
-				52FE2BFF295D8AE40027845B /* NSString+CJGChain.h in Headers */,
-				52FE5140295DC40B002ABF55 /* CJGPanGestureChain.h in Headers */,
-				52FE513F295DC40B002ABF55 /* CJGTapGestureChain.h in Headers */,
-				52FE5184295DC426002ABF55 /* CJGButtonChain.h in Headers */,
-				52FE5194295DC426002ABF55 /* CJGSegmentedControlChain.h in Headers */,
-				52FE5139295DC40B002ABF55 /* CJGGestureChain.h in Headers */,
-				52FE517E295DC426002ABF55 /* CJGSliderViewChain.h in Headers */,
-				52FE513A295DC40B002ABF55 /* CJGUIGestureChainHeader.h in Headers */,
-				52FE2C03295D8AE40027845B /* NSObject+CJGChain.h in Headers */,
-				52FE5199295DC426002ABF55 /* CJGVisualEffectViewChain.h in Headers */,
-				52FE2C02295D8AE40027845B /* NSDictionary+CJGChain.h in Headers */,
-				399000096B128C6EB2DB357668CCD63B /* CJGChainProgramming.h in Headers */,
-				2923A248F2A3F500F98C4C857CF561DA /* CJGChainProgramming-umbrella.h in Headers */,
-				52FE5179295DC426002ABF55 /* CJGPickerViewChain.h in Headers */,
-				52FE5180295DC426002ABF55 /* UIView+CJGChain.h in Headers */,
-				52FE511C295DC3C4002ABF55 /* CJGEmiiterLayerChain.h in Headers */,
-				52FE511B295DC3C4002ABF55 /* CJGTiledLayerChain.h in Headers */,
-				52FE518B295DC426002ABF55 /* CJGActivityIndicatorViewChain.h in Headers */,
-				52FE5187295DC426002ABF55 /* CJGUIViewChainHeader.h in Headers */,
-				52FE510C295DC3C4002ABF55 /* CJGGradientLayerChain.h in Headers */,
-				52FE518C295DC426002ABF55 /* CJGTextViewChain.h in Headers */,
-				52FE2C01295D8AE40027845B /* NSAttributedString+CJGChain.h in Headers */,
-				52FE510F295DC3C4002ABF55 /* CJGTextLayerChain.h in Headers */,
-				52FE513D295DC40B002ABF55 /* CJGPinchGestureChain.h in Headers */,
-				52FE5144295DC40B002ABF55 /* CJGRotationGestureChain.h in Headers */,
-				52FE513C295DC40B002ABF55 /* CJGLongPressGestureChain.h in Headers */,
-				52FE5111295DC3C4002ABF55 /* CJGScrollLayerChain.h in Headers */,
-				52FE5186295DC426002ABF55 /* CJGImageViewChain.h in Headers */,
-				52FE5126295DC3F0002ABF55 /* CJGChainDefine.h in Headers */,
-				52FE518F295DC426002ABF55 /* CJGTableViewCellChain.h in Headers */,
-				52FE5143295DC40B002ABF55 /* CJGSwipeGestureChain.h in Headers */,
-				52FE2BEE295D8AE40027845B /* UIControl+CJGChain.h in Headers */,
-				52FE5189295DC426002ABF55 /* CJGDatePickerViewChain.h in Headers */,
-				52FE2BF2295D8AE40027845B /* UIGestureRecognizer+CJGChain.h in Headers */,
-				52FE5177295DC426002ABF55 /* CJGTableViewChain.h in Headers */,
-				52FE5192295DC426002ABF55 /* CJGViewChain.h in Headers */,
-				52FE517F295DC426002ABF55 /* CJGProgressViewChain.h in Headers */,
-				52FE5125295DC3F0002ABF55 /* CJGChainBase.h in Headers */,
-				52FE2BF1295D8AE40027845B /* UILabel+CJGChain.h in Headers */,
-				52FE511E295DC3C4002ABF55 /* CJGCALayerChainHeader.h in Headers */,
-				52FE510E295DC3C4002ABF55 /* CJGShaperLayerChain.h in Headers */,
-				52FE2BF3295D8AE40027845B /* UIScrollView+CJGChain.h in Headers */,
-				52FE5196295DC426002ABF55 /* CJGWebViewChain.h in Headers */,
-				52FE2C00295D8AE40027845B /* NSNumber+CJGChain.h in Headers */,
-				52FE510D295DC3C4002ABF55 /* CALayer+CJGChain.h in Headers */,
-				52FE5116295DC3C4002ABF55 /* CJGTransFormLayerChain.h in Headers */,
-				52FE5112295DC3C4002ABF55 /* CJGReplicatorLayerChain.h in Headers */,
-				52FE5173295DC426002ABF55 /* CJGCollectionViewChain.h in Headers */,
-				52FE5114295DC3C4002ABF55 /* CJGLayerChain.h in Headers */,
-				52FE2BF4295D8AE40027845B /* UITextField+CJGChain.h in Headers */,
-				52FE5174295DC426002ABF55 /* CJGScrollViewChain.h in Headers */,
-				52FE5198295DC426002ABF55 /* CJGLabelChain.h in Headers */,
-				52FE2BEF295D8AE40027845B /* UIButton+CJGChain.h in Headers */,
-				52FE519A295DC426002ABF55 /* CJGControlChain.h in Headers */,
-				52FE5193295DC426002ABF55 /* CJGSwitchChain.h in Headers */,
+				F512870B45C0C6B24E38FD2EE25618AE /* MASCompositeConstraint.h in Headers */,
+				53586D813BF4D4766CFDBCEB63A21383 /* MASConstraint.h in Headers */,
+				553E55AEF5A149D42EB03288B5176510 /* MASConstraint+Private.h in Headers */,
+				07B067DA938A893BCD72912BAC001010 /* MASConstraintMaker.h in Headers */,
+				31DD4C775240F060267C1540392EC30B /* MASLayoutConstraint.h in Headers */,
+				94CD7A07FC17FE50A899F820E4C679B4 /* Masonry.h in Headers */,
+				40858AE1B029C31FA85DD7CDA03E37A8 /* Masonry-umbrella.h in Headers */,
+				67CE5073C0085A0926D63C23E25D8227 /* MASUtilities.h in Headers */,
+				74540144468D9DB3655B589FE1505576 /* MASViewAttribute.h in Headers */,
+				2CB118B63412652297909DC0E2CEACA7 /* MASViewConstraint.h in Headers */,
+				23A7B387AAE7F7C8DB76823B837E4910 /* NSArray+MASAdditions.h in Headers */,
+				6FB50AF9D0C3A8703C9BABD3389FDE5E /* NSArray+MASShorthandAdditions.h in Headers */,
+				68E1177B4C9BCDCA9BB5CEE811C69931 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				A1D1BD932F8C1070887DE7250B0BCCF7 /* View+MASAdditions.h in Headers */,
+				FE9F7452C76F4A485B2BEE93811E6176 /* View+MASShorthandAdditions.h in Headers */,
+				D39B30D3DA2AE0833063D85A07584702 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,8 +876,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3C529F0E642FB5F56D05DADB16E9BFE7 /* PBXTargetDependency */,
-				E184AFC3412CB1225731522FDD5F5180 /* PBXTargetDependency */,
+				426CB17078D6B2F2986131AA3743AE85 /* PBXTargetDependency */,
+				26A68C436D9182F0EB9A5C0B38AEF5E7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CJGChainProgramming_Example";
 			productName = Pods_CJGChainProgramming_Example;
@@ -862,12 +886,12 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA91571D5D582BF6C0543A7CA0E8C460 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = C3ADFB682F6162DD48713A004820A8BA /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				16A90DDEECA70E9CD98D247D86C7FB61 /* Headers */,
-				80107B94961FBB230E66AC6D586965F9 /* Sources */,
-				AA6ADD377937CB7A8E69AE824015EBEB /* Frameworks */,
-				DCE4663DC5F055041D6EF89CF0C823D3 /* Resources */,
+				328AA8DB6B7DCAA22A6ABBC7D10B12EC /* Headers */,
+				3F7BE6CF77562C269715281D3E5C189B /* Sources */,
+				B5D5664389B39C9BF4AF8363640674BD /* Frameworks */,
+				0231A3534A8A06D8027ED590C174595B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -880,17 +904,17 @@
 		};
 		566AE75AEB7766EB4E3DB994ECBB45A8 /* CJGChainProgramming */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E71FAED33FB09B597A1B2DDD6DABB2A /* Build configuration list for PBXNativeTarget "CJGChainProgramming" */;
+			buildConfigurationList = F79E7DCC0DB2E02B1703FF68302A389A /* Build configuration list for PBXNativeTarget "CJGChainProgramming" */;
 			buildPhases = (
-				90757723ED9E521012C160CDE60F0587 /* Headers */,
-				E30E9818F23C4308F7159EFA88B9D838 /* Sources */,
-				E2A20B9B83B921A6C21DAD452FC55D9D /* Frameworks */,
-				CC7E78267AE0EBA2D674E233BD1AEA2D /* Resources */,
+				23BAA1905E3719B4BE6C048509BED671 /* Headers */,
+				AD0B9AF080C93C43D3763D1B9AE10E94 /* Sources */,
+				FB862E972D03E50892A4DE62F95FB062 /* Frameworks */,
+				2C80D25D39310A5385381B7792E6405B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E1B608D29F9BD88B29D4CA4468E0E58 /* PBXTargetDependency */,
+				5158ACA81267A78E34F4B7F3C07917DF /* PBXTargetDependency */,
 			);
 			name = CJGChainProgramming;
 			productName = CJGChainProgramming;
@@ -909,7 +933,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				31A9B1D5BFB25F18FA49F70C39B783AF /* PBXTargetDependency */,
+				D650EF80524C16F6E58F778EA6C917D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CJGChainProgramming_Tests";
 			productName = Pods_CJGChainProgramming_Tests;
@@ -947,14 +971,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C29A5E17AB610494B0E3AE559E86C8F5 /* Resources */ = {
+		0231A3534A8A06D8027ED590C174595B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC7E78267AE0EBA2D674E233BD1AEA2D /* Resources */ = {
+		2C80D25D39310A5385381B7792E6405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29A5E17AB610494B0E3AE559E86C8F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -968,16 +999,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE4663DC5F055041D6EF89CF0C823D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F7BE6CF77562C269715281D3E5C189B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E79BACB3B4105FEE8EE44DD66AF3E /* MASCompositeConstraint.m in Sources */,
+				C957F68CE09FE948ACC125B2E0D1BF7D /* MASConstraint.m in Sources */,
+				4B06DC504ACD733066B102999634A172 /* MASConstraintMaker.m in Sources */,
+				7D0D44BAFD459F75403FB38B19BD9375 /* MASLayoutConstraint.m in Sources */,
+				E75FD87BB3D14531F0AFC3FC6BD9BB67 /* Masonry-dummy.m in Sources */,
+				73A21938A71204AF3F2AFE5465B65735 /* MASViewAttribute.m in Sources */,
+				076578416F585EC483D72D069F85BEE3 /* MASViewConstraint.m in Sources */,
+				E0BB6A2ADE5462EDE2BAD4CAAEF0322F /* NSArray+MASAdditions.m in Sources */,
+				B87815B21F158265B405085A48DAA684 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3BC9F93D573D3410C1E83DB755D5CF02 /* View+MASAdditions.m in Sources */,
+				2B7BECD41F3A45BF862E3BC64079176E /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43B6663B49DC2BBA1EC802912CA783E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -986,21 +1028,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80107B94961FBB230E66AC6D586965F9 /* Sources */ = {
+		AD0B9AF080C93C43D3763D1B9AE10E94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E506FF05E1A440E9089E401D813D5C29 /* MASCompositeConstraint.m in Sources */,
-				FBA5966CB4C691F815B76D7E5612335E /* MASConstraint.m in Sources */,
-				4DD19E5CC103BCA27937F2D2A3FF6202 /* MASConstraintMaker.m in Sources */,
-				DA686B752BD6BE24A57092FC5666A446 /* MASLayoutConstraint.m in Sources */,
-				6921D3604B2DB74D6204D0C38B69EF41 /* Masonry-dummy.m in Sources */,
-				B076D24395F48F0456E479178691436E /* MASViewAttribute.m in Sources */,
-				9411BD2A2B9D32077EDAC0E43F3BCAF4 /* MASViewConstraint.m in Sources */,
-				34CD3A12AE5BA49C3721874918094F6E /* NSArray+MASAdditions.m in Sources */,
-				07A00F0ABE878D84AC2AA127E3561BF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				1A2690BE621948E19BA1851D6F9C5BC5 /* View+MASAdditions.m in Sources */,
-				9F9709602609F5EC6FC1ADC6CC385244 /* ViewController+MASAdditions.m in Sources */,
+				1B08CF665D7A4A0C6E91A6C6625E0226 /* CALayer+CJGChain.m in Sources */,
+				56178720E87E02D0E34F512656C58E43 /* CJGActivityIndicatorViewChain.m in Sources */,
+				6E0CE6C4275FC7CE2F021A1B7E89BB96 /* CJGBaseControlChain.m in Sources */,
+				A016685E62132A84F83FBF659A6D61AF /* CJGBaseLayerChain.m in Sources */,
+				6ACDAF762A83BC460086129C30715BBA /* CJGBaseScrollViewChain.m in Sources */,
+				67B5F556287A3FED0C9836F138C74848 /* CJGBaseViewChain.m in Sources */,
+				CEAE86346704C15F7E1FB3686D0F5D8A /* CJGButtonChain.m in Sources */,
+				07DF9633EDC87C2E5001C30B26983340 /* CJGChainBase.m in Sources */,
+				35C2073AAE4A6F943F77C2DF29F67BB5 /* CJGChainProgramming-dummy.m in Sources */,
+				C7813C2ACC2838D17A07F018DD6D8381 /* CJGCollectionViewChain.m in Sources */,
+				BF34F8FC9E508EFAE682C319E64AF8B6 /* CJGControlChain.m in Sources */,
+				08768E1522C7A67D63267BB60BD40686 /* CJGDatePickerViewChain.m in Sources */,
+				5D82C3E9549025EAAD90FC590883A0A3 /* CJGEmiiterLayerChain.m in Sources */,
+				B1EFCD59FFB0F581D7FD3629221779F4 /* CJGGestureChain.m in Sources */,
+				1A2765F6A7020319D02E39DC4F204ED0 /* CJGGradientLayerChain.m in Sources */,
+				228E03868E80F8A7B72D5E20441E2BCF /* CJGImageViewChain.m in Sources */,
+				D92CC27296132F2FF8235E98DD8C78EE /* CJGLabelChain.m in Sources */,
+				D89CEDF83C7AF0A1EC66EDF2E03736D4 /* CJGLayerChain.m in Sources */,
+				C5531EA7DD3775D9C456F8092F932996 /* CJGLongPressGestureChain.m in Sources */,
+				43BD94CD8DA7F5029C66FB9854A1144C /* CJGPanGestureChain.m in Sources */,
+				412B7EC19C20B8E92C0C364406B3C211 /* CJGPickerViewChain.m in Sources */,
+				86A51F3E035D77707CED57FFC2ED50C7 /* CJGPinchGestureChain.m in Sources */,
+				51DFE388EBC12B2C0C096084FF6D3DA8 /* CJGProgressViewChain.m in Sources */,
+				702AE9A26C4DAD578BD51CD5990E4CB7 /* CJGReplicatorLayerChain.m in Sources */,
+				1BE625255284E33384B58A3D095144DE /* CJGRotationGestureChain.m in Sources */,
+				7DF7174498D153B5E0C4097FC2159EF6 /* CJGScrollLayerChain.m in Sources */,
+				28EB50B8CEB7362C8F66607C147F461D /* CJGScrollViewChain.m in Sources */,
+				B7B70CA8408763C4864125C4A658A807 /* CJGSegmentedControlChain.m in Sources */,
+				62CF9471C258DD6449F2875460B3EEFB /* CJGShaperLayerChain.m in Sources */,
+				09B67CA0C3FDA46D098F53182A85F6C7 /* CJGSliderViewChain.m in Sources */,
+				D379E0A71DEB99FA63BCE69D70008246 /* CJGSwipeGestureChain.m in Sources */,
+				F01057313739083413BA767CC2F3485A /* CJGSwitchChain.m in Sources */,
+				94A85B2998307DDCD9E7F4DD40720115 /* CJGTableViewCellChain.m in Sources */,
+				B192F8BC08C42F41BD4BB0DCD9AEF971 /* CJGTableViewChain.m in Sources */,
+				21E90DC090BDE3BB20CA8ACB87C595D6 /* CJGTapGestureChain.m in Sources */,
+				E882F0A124D25B471FA0D85089B1A45C /* CJGTextFieldChain.m in Sources */,
+				3244ACBB70FF38AF1309BAAB2E03C237 /* CJGTextLayerChain.m in Sources */,
+				B79E42CE46E0B07BC2B7599A3D459751 /* CJGTextViewChain.m in Sources */,
+				EEAB83D36E0A17B92D431A240674E7A7 /* CJGTiledLayerChain.m in Sources */,
+				65A12290F7C6FDD85815F90506A5723D /* CJGTransFormLayerChain.m in Sources */,
+				63B0E84F60A2269268B03C2199F35762 /* CJGViewChain.m in Sources */,
+				B353693DB1E25AD097F0D2AB124571AF /* CJGVisualEffectViewChain.m in Sources */,
+				D17807C3BDB8DD2D68A46E4E0391BA28 /* CJGWebViewChain.m in Sources */,
+				E1CD660F1822CAE4F191F3A833A57BC7 /* NSAttributedString+CJGChain.m in Sources */,
+				DAA31DB0BFFA93527516840AC4121C84 /* NSData+CJGChain.m in Sources */,
+				19BB9A797FF8DE06C266953E96BF5A8F /* NSDictionary+CJGChain.m in Sources */,
+				3E213F9A66C59153FC7A5EC806D31D9A /* NSNumber+CJGChain.m in Sources */,
+				2A3C3FCFF04495977FD65FCC3DA004BB /* NSObject+CJGChain.m in Sources */,
+				468720CC5709B17E639A5AEE54F6B8B8 /* NSString+CJGChain.m in Sources */,
+				36359E477FF6550268C62780DDDB7865 /* UIButton+CJGChain.m in Sources */,
+				D46BD745AF07DA97C03D9765FD6D56C8 /* UIControl+CJGChain.m in Sources */,
+				E65CD5B62E8CB231C3ADC0152744AAA0 /* UIGestureRecognizer+CJGChain.m in Sources */,
+				19705C2F815DF5666B66333303AB737F /* UILabel+CJGChain.m in Sources */,
+				0F2283274D04130466590CBC7C49792F /* UIScrollView+CJGChain.m in Sources */,
+				B33142D05104B175A484777D972A4070 /* UITextField+CJGChain.m in Sources */,
+				8F44F7420E59BDC0E3FB95B81767776B /* UIView+CJGChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,127 +1099,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30E9818F23C4308F7159EFA88B9D838 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52FE5115295DC3C4002ABF55 /* CJGScrollLayerChain.m in Sources */,
-				52FE5188295DC426002ABF55 /* CJGPickerViewChain.m in Sources */,
-				52FE5181295DC426002ABF55 /* CJGControlChain.m in Sources */,
-				52FE517B295DC426002ABF55 /* CJGSegmentedControlChain.m in Sources */,
-				27712160C7A208789B85D3D424787552 /* CJGChainProgramming-dummy.m in Sources */,
-				52FE5117295DC3C4002ABF55 /* CJGTextLayerChain.m in Sources */,
-				52FE5197295DC426002ABF55 /* CJGButtonChain.m in Sources */,
-				52FE5119295DC3C4002ABF55 /* CALayer+CJGChain.m in Sources */,
-				52FE5118295DC3C4002ABF55 /* CJGShaperLayerChain.m in Sources */,
-				52FE5137295DC40B002ABF55 /* CJGPanGestureChain.m in Sources */,
-				52FE5176295DC426002ABF55 /* CJGActivityIndicatorViewChain.m in Sources */,
-				52FE513E295DC40B002ABF55 /* CJGRotationGestureChain.m in Sources */,
-				52FE5113295DC3C4002ABF55 /* CJGEmiiterLayerChain.m in Sources */,
-				52FE2BFB295D8AE40027845B /* NSObject+CJGChain.m in Sources */,
-				52FE517C295DC426002ABF55 /* CJGSwitchChain.m in Sources */,
-				52FE2BFA295D8AE40027845B /* NSNumber+CJGChain.m in Sources */,
-				52FE5141295DC40B002ABF55 /* CJGGestureChain.m in Sources */,
-				52FE518A295DC426002ABF55 /* CJGTableViewChain.m in Sources */,
-				52FE2BF8295D8AE40027845B /* NSString+CJGChain.m in Sources */,
-				52FE518D295DC426002ABF55 /* CJGScrollViewChain.m in Sources */,
-				52FE5172295DC426002ABF55 /* CJGTableViewCellChain.m in Sources */,
-				52FE5191295DC426002ABF55 /* CJGSliderViewChain.m in Sources */,
-				52FE5182295DC426002ABF55 /* CJGLabelChain.m in Sources */,
-				52FE2BF6295D8AE40027845B /* UIControl+CJGChain.m in Sources */,
-				52FE5190295DC426002ABF55 /* CJGProgressViewChain.m in Sources */,
-				52FE2BF9295D8AE40027845B /* NSData+CJGChain.m in Sources */,
-				52FE511F295DC3C4002ABF55 /* CJGLayerChain.m in Sources */,
-				52FE517D295DC426002ABF55 /* CJGViewChain.m in Sources */,
-				52FE2BEC295D8AE40027845B /* UIGestureRecognizer+CJGChain.m in Sources */,
-				52FE511D295DC3C4002ABF55 /* CJGReplicatorLayerChain.m in Sources */,
-				52FE511A295DC3C4002ABF55 /* CJGGradientLayerChain.m in Sources */,
-				52FE5175295DC426002ABF55 /* CJGTextViewChain.m in Sources */,
-				52FE2BFC295D8AE40027845B /* NSDictionary+CJGChain.m in Sources */,
-				52FE5183295DC426002ABF55 /* CJGVisualEffectViewChain.m in Sources */,
-				52FE5145295DC40B002ABF55 /* CJGPinchGestureChain.m in Sources */,
-				52FE2BF5295D8AE40027845B /* UIButton+CJGChain.m in Sources */,
-				52FE5124295DC3F0002ABF55 /* CJGChainBase.m in Sources */,
-				52FE2BED295D8AE40027845B /* UIScrollView+CJGChain.m in Sources */,
-				52FE2BF0295D8AE40027845B /* UITextField+CJGChain.m in Sources */,
-				52FE5138295DC40B002ABF55 /* CJGTapGestureChain.m in Sources */,
-				52FE518E295DC426002ABF55 /* CJGCollectionViewChain.m in Sources */,
-				52FE5178295DC426002ABF55 /* CJGDatePickerViewChain.m in Sources */,
-				52FE5110295DC3C4002ABF55 /* CJGTransFormLayerChain.m in Sources */,
-				52FE5195295DC426002ABF55 /* CJGTextFieldChain.m in Sources */,
-				52FE5142295DC40B002ABF55 /* CJGLongPressGestureChain.m in Sources */,
-				52FE510B295DC3C4002ABF55 /* CJGTiledLayerChain.m in Sources */,
-				52FE2BFD295D8AE40027845B /* NSAttributedString+CJGChain.m in Sources */,
-				52FE519B295DC426002ABF55 /* UIView+CJGChain.m in Sources */,
-				52FE2BF7295D8AE40027845B /* UILabel+CJGChain.m in Sources */,
-				52FE5185295DC426002ABF55 /* CJGWebViewChain.m in Sources */,
-				52FE513B295DC40B002ABF55 /* CJGSwipeGestureChain.m in Sources */,
-				52FE519C295DC426002ABF55 /* CJGImageViewChain.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E1B608D29F9BD88B29D4CA4468E0E58 /* PBXTargetDependency */ = {
+		26A68C436D9182F0EB9A5C0B38AEF5E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 9433787FF518529E8B96F597F1C16573 /* PBXContainerItemProxy */;
+			targetProxy = 9655D8A2ECD2B7C038808546AAF4A84C /* PBXContainerItemProxy */;
 		};
-		31A9B1D5BFB25F18FA49F70C39B783AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CJGChainProgramming_Example";
-			target = 26A7F29F4ABF807DD59A856981D9A118 /* Pods-CJGChainProgramming_Example */;
-			targetProxy = C1FD72EB5D23714A3462C810A3FE9923 /* PBXContainerItemProxy */;
-		};
-		3C529F0E642FB5F56D05DADB16E9BFE7 /* PBXTargetDependency */ = {
+		426CB17078D6B2F2986131AA3743AE85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CJGChainProgramming;
 			target = 566AE75AEB7766EB4E3DB994ECBB45A8 /* CJGChainProgramming */;
-			targetProxy = 30979D5A4438292797B7934F553FDE51 /* PBXContainerItemProxy */;
+			targetProxy = 36450F71C9E76DE835466E8C40AF566F /* PBXContainerItemProxy */;
 		};
-		E184AFC3412CB1225731522FDD5F5180 /* PBXTargetDependency */ = {
+		5158ACA81267A78E34F4B7F3C07917DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = AA7F50BA94A607609207A8D89C443FED /* PBXContainerItemProxy */;
+			targetProxy = AF3D424B884C267E66A5D3A53A320089 /* PBXContainerItemProxy */;
+		};
+		D650EF80524C16F6E58F778EA6C917D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CJGChainProgramming_Example";
+			target = 26A7F29F4ABF807DD59A856981D9A118 /* Pods-CJGChainProgramming_Example */;
+			targetProxy = 298071E6D72C8F0858655E22489EFC77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C50959DC4971570952BE7C274550C4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6269C19C0347FBFFD70F9C82C593BF /* CJGChainProgramming.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJGChainProgramming/CJGChainProgramming-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming.modulemap";
-				PRODUCT_MODULE_NAME = CJGChainProgramming;
-				PRODUCT_NAME = CJGChainProgramming;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2C5BC2BB7B487117582ACD67B9736FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B185AB722E90670FE9F5B21BBC88E0FC /* Pods-CJGChainProgramming_Example.release.xcconfig */;
@@ -1161,39 +1157,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C54871BFE743F50E156E64EA2A9C5D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 793C73B8D34FA774D5C63EE21B5188DD /* CJGChainProgramming.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJGChainProgramming/CJGChainProgramming-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming.modulemap";
-				PRODUCT_MODULE_NAME = CJGChainProgramming;
-				PRODUCT_NAME = CJGChainProgramming;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1235,7 +1198,69 @@
 			};
 			name = Debug;
 		};
-		6BD752F8DF70D61F483B87996B45D514 /* Release */ = {
+		62FA1D9E34BAE0EF6D80DF770229AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E9E4DAEBABFF43126ABAD3D89CED3B /* CJGChainProgramming.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJGChainProgramming/CJGChainProgramming-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming.modulemap";
+				PRODUCT_MODULE_NAME = CJGChainProgramming;
+				PRODUCT_NAME = CJGChainProgramming;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6657B01847A487F15BAE72807E05F3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827CB0E800A47F292045BF16F7315C0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
 			buildSettings = {
@@ -1322,7 +1347,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1463,9 +1489,9 @@
 			};
 			name = Release;
 		};
-		F377F63AF781EF3A93BFB8B2FC8EDB95 /* Debug */ = {
+		F0B66A625AA6D09BEC1DFF153D07506A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = AAB7800E9537F66631565CEB1745CFA6 /* CJGChainProgramming.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1476,23 +1502,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CJGChainProgramming/CJGChainProgramming-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MODULEMAP_FILE = "Target Support Files/CJGChainProgramming/CJGChainProgramming.modulemap";
+				PRODUCT_MODULE_NAME = CJGChainProgramming;
+				PRODUCT_NAME = CJGChainProgramming;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1515,15 +1542,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E71FAED33FB09B597A1B2DDD6DABB2A /* Build configuration list for PBXNativeTarget "CJGChainProgramming" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C50959DC4971570952BE7C274550C4C /* Debug */,
-				3C54871BFE743F50E156E64EA2A9C5D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C26D1723C86B37483856D6C6DB0F246A /* Build configuration list for PBXNativeTarget "Pods-CJGChainProgramming_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1533,11 +1551,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA91571D5D582BF6C0543A7CA0E8C460 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		C3ADFB682F6162DD48713A004820A8BA /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F377F63AF781EF3A93BFB8B2FC8EDB95 /* Debug */,
-				6BD752F8DF70D61F483B87996B45D514 /* Release */,
+				6657B01847A487F15BAE72807E05F3E3 /* Debug */,
+				827CB0E800A47F292045BF16F7315C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79E7DCC0DB2E02B1703FF68302A389A /* Build configuration list for PBXNativeTarget "CJGChainProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FA1D9E34BAE0EF6D80DF770229AA03 /* Debug */,
+				F0B66A625AA6D09BEC1DFF153D07506A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

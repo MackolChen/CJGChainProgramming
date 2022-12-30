@@ -1,26 +1,28 @@
 PODS:
-  - CJGChainProgramming (0.0.1):
-    - CJGChainProgramming/CALayer (= 0.0.1)
-    - CJGChainProgramming/Categories (= 0.0.1)
-    - CJGChainProgramming/CJGChainProgrammingBase (= 0.0.1)
-    - CJGChainProgramming/UIGesture (= 0.0.1)
-    - CJGChainProgramming/UIView (= 0.0.1)
+  - CJGChainProgramming (0.0.5):
+    - CJGChainProgramming/CALayer (= 0.0.5)
+    - CJGChainProgramming/Categories (= 0.0.5)
+    - CJGChainProgramming/CJGChainProgrammingBase (= 0.0.5)
+    - CJGChainProgramming/UIGesture (= 0.0.5)
+    - CJGChainProgramming/UIView (= 0.0.5)
     - Masonry
-  - CJGChainProgramming/CALayer (0.0.1):
+  - CJGChainProgramming/CALayer (0.0.5):
+    - CJGChainProgramming/Categories
+    - CJGChainProgramming/CJGChainProgrammingBase
     - Masonry
-  - CJGChainProgramming/Categories (0.0.1):
-    - CJGChainProgramming/Categories/Foundation (= 0.0.1)
-    - CJGChainProgramming/Categories/UI (= 0.0.1)
+  - CJGChainProgramming/Categories (0.0.5):
     - Masonry
-  - CJGChainProgramming/Categories/Foundation (0.0.1):
+  - CJGChainProgramming/CJGChainProgrammingBase (0.0.5):
     - Masonry
-  - CJGChainProgramming/Categories/UI (0.0.1):
+  - CJGChainProgramming/UIGesture (0.0.5):
+    - CJGChainProgramming/Categories
+    - CJGChainProgramming/CJGChainProgrammingBase
     - Masonry
-  - CJGChainProgramming/CJGChainProgrammingBase (0.0.1):
-    - Masonry
-  - CJGChainProgramming/UIGesture (0.0.1):
-    - Masonry
-  - CJGChainProgramming/UIView (0.0.1):
+  - CJGChainProgramming/UIView (0.0.5):
+    - CJGChainProgramming/CALayer
+    - CJGChainProgramming/Categories
+    - CJGChainProgramming/CJGChainProgrammingBase
+    - CJGChainProgramming/UIGesture
     - Masonry
   - Masonry (1.1.0)
 
@@ -37,7 +39,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CJGChainProgramming: fcc9c8b182fff9c8aa9c2dc4cd63a3577cd9ff92
+  CJGChainProgramming: c04278f564ee65fa68c3f45d36188d91fd9af709
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: db1322f28ad4a9a8fec2d4aaa404b30b019ac61c

@@ -7,9 +7,11 @@
 //
 
 #import "CJGViewController.h"
+#import "CJGChainProgramming.h"
 
-@interface CJGViewController ()
-
+@interface CJGViewController ()<UIGestureRecognizerDelegate>
+@property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UIView *s;
 @end
 
 @implementation CJGViewController
@@ -17,7 +19,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIScrollViewCreate().makeChain.addSubView(self.view).assignTo(^(__kindof UIView * _Nonnull view) {
+        self.scrollView = view;
+    });
+    UIViewCreate().makeChain.addToSuperView(self.view).frame(CGRectMake(0, 0, 0, 0)).backgroundColor(UIColor.whiteColor).assignTo(^(__kindof UIView * _Nonnull view) {
+        self.s = view;
+    });
+    UIPanGestureRecognizerCreate().makeChain.delegate(self).maximumNumberOfTouches(2);
+	
+    UIControlCreate();
+    CAEmitterLayerCreate().makeChain.assignTo(^(__kindof CALayer * _Nonnull layer) {
+        
+    });
+    CAShapeLayerCreate().makeChain.assignTo(^(__kindof CALayer * _Nonnull layer) {
+        
+    });
+    UIButtonCreate().makeChain.addToSuperView(self.view).assignTo(^(__kindof UIView * _Nonnull view) {
+        
+    });
 }
 
 - (void)didReceiveMemoryWarning

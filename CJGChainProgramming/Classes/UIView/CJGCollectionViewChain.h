@@ -4,11 +4,11 @@
 //
 //  Created by Chen Jinguo on 2022/12/29.
 //
-#import "CJGScrollViewChain.h"
+#import "CJGBaseScrollViewChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGCollectionViewChain;
-@interface CJGCollectionViewChain : CJGScrollViewChain<CJGCollectionViewChain *>
+@interface CJGCollectionViewChain : CJGBaseScrollViewChain<CJGCollectionViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGCollectionViewChain *(^ collectionViewLayout)(UICollectionViewLayout *collectionViewLayout);
 CJGCATEGORY_CHAIN_PROPERTY CJGCollectionViewChain *(^ delegate)(id<UICollectionViewDelegate> delegate);
 CJGCATEGORY_CHAIN_PROPERTY CJGCollectionViewChain *(^ dataSource)(id<UICollectionViewDataSource> dataSource);

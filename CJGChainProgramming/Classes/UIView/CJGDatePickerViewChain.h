@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGControlChain.h"
+#import "CJGBaseControlChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGDatePickerViewChain;
-@interface CJGDatePickerViewChain : CJGControlChain<CJGDatePickerViewChain *>
+@interface CJGDatePickerViewChain : CJGBaseControlChain<CJGDatePickerViewChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGDatePickerViewChain * (^ datePickerMode) (UIDatePickerMode datePickerMode);
 CJGCATEGORY_CHAIN_PROPERTY CJGDatePickerViewChain * (^ locale) (NSLocale* locale);
 CJGCATEGORY_CHAIN_PROPERTY CJGDatePickerViewChain * (^ calendar) (NSCalendar* calendar);

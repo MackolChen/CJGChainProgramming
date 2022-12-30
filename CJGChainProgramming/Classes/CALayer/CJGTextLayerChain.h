@@ -5,11 +5,11 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGTextLayerChain;
-@interface CJGTextLayerChain : CJGLayerChain<CJGTextLayerChain *>
+@interface CJGTextLayerChain : CJGBaseLayerChain<CJGTextLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGTextLayerChain * (^ string) (id string);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextLayerChain * (^ font) (CFTypeRef font);
 CJGCATEGORY_CHAIN_PROPERTY CJGTextLayerChain * (^ fontSize) (CGFloat fontSize);

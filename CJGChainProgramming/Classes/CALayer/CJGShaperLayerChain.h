@@ -5,12 +5,12 @@
 //  Created by Chen Jinguo on 2022/12/29.
 //
 
-#import "CJGLayerChain.h"
+#import "CJGBaseLayerChain.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 @class CJGShaperLayerChain;
-@interface CJGShaperLayerChain : CJGLayerChain<CJGShaperLayerChain *>
+@interface CJGShaperLayerChain : CJGBaseLayerChain<CJGShaperLayerChain *>
 CJGCATEGORY_CHAIN_PROPERTY CJGShaperLayerChain * (^ path) (CGPathRef path);
 CJGCATEGORY_CHAIN_PROPERTY CJGShaperLayerChain * (^ fillColor) (CGColorRef fillColor);
 CJGCATEGORY_CHAIN_PROPERTY CJGShaperLayerChain * (^ fillRule) (CAShapeLayerFillRule fillRule);

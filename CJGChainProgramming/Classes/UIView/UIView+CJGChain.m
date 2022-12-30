@@ -335,10 +335,10 @@ ModelClass *chainModel = [[ModelClass alloc] initWithLayer:layer modelClass:[Lay
     return self.layer;
 }
 
-CJGCATEGORY_ADDVIEW(addView, CJGViewChain, UIView);
+CJGCATEGORY_ADDVIEW(addView, CJGBaseViewChain, UIView);
 CJGCATEGORY_ADDVIEW(addLabel, CJGLabelChain, UILabel);
 CJGCATEGORY_ADDVIEW(addImageView, CJGImageViewChain, UIImageView);
-CJGCATEGORY_ADDVIEW(addControl, CJGControlChain, UIControl);
+CJGCATEGORY_ADDVIEW(addControl, CJGBaseControlChain, UIControl);
 CJGCATEGORY_ADDVIEW(addTextField, CJGTextFieldChain, UITextField);
 CJGCATEGORY_ADDVIEW(addButton, CJGButtonChain, UIButton);
 CJGCATEGORY_ADDVIEW(addSwitch, CJGSwitchChain, UISwitch);
