@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGChainProgramming'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '链式编程'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'MackolChen' => 'chenjg@tiens.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGChainProgramming.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-  s.source_files = 'CJGChainProgramming/Classes/**/*'
+  s.source_files = 'CJGChainProgramming/Classes/*'
   #=========================CJGChainProgrammingBase==================================
   s.subspec 'CJGChainProgrammingBase' do |ss|
     ss.source_files = 'CJGChainProgramming/Classes/CJGChainProgrammingBase/*.{h,m}'
